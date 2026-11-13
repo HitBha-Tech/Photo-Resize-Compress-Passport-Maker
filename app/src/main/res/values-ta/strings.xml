@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Photo: Resize, Compress &amp; Passport Maker</string>
+
+    <!-- Feature Names & Descriptions -->
+    <string name="single_image_edit">ஒற்றை படத் திருத்தம்</string>
+    <string name="single_image_edit_desc">அளவு மாற்றம், செதுக்கல், சரிசெய்தல், அமுக்குதல்</string>
+    <string name="batch_processing">தொகுப்பு செயலாக்கம்</string>
+    <string name="batch_processing_desc">பல படங்களை அளவு மாற்றம்/அமுக்குதல்</string>
+    <string name="image_stitch">பட இணைப்பு</string>
+    <string name="image_stitch_desc">பல படங்களை இணைக்கவும்</string>
+    <string name="cut_inside_image">உள்ளே வெட்டு</string>
+    <string name="cut_inside_image_desc">படத்திலிருந்து சதுரப் பகுதியை வெட்டவும்</string>
+    <string name="passport_size_photo">பாஸ்போர்ட் அளவு புகைப்படம்</string>
+    <string name="passport_size_photo_desc">பாஸ்போர்ட் புகைப்பட தாள்களை உருவாக்கவும்</string>
+    <string name="image_editor">படத் திருத்தி</string>
+    <string name="saved_images">சேமித்த படங்கள்</string>
+    <string name="no_saved_images">இதுவரை படங்கள் எதுவும் சேமிக்கப்படவில்லை</string>
+
+    <!-- Common Actions -->
+    <string name="resize">அளவு மாற்று</string>
+    <string name="crop">செதுக்கு</string>
+    <string name="adjust">சரிசெய்</string>
+    <string name="compress">அமுக்கு</string>
+    <string name="rotate">சுழற்று</string>
+    <string name="cut">வெட்டு</string>
+    <string name="save">சேமி</string>
+    <string name="cancel">ரத்துசெய்</string>
+    <string name="apply">பயன்படுத்து</string>
+    <string name="done">முடிந்தது</string>
+    <string name="reset">மீட்டமை</string>
+    <string name="share">பகிர்</string>
+    <string name="select">தேர்வுசெய்</string>
+    <string name="remove">X</string>
+
+    <!-- Editor Dialogs -->
+    <string name="resize_image">பட அளவு மாற்றம்</string>
+    <string name="keep_aspect_ratio">விகிதத்தை பராமரிக்கவும்</string>
+    <string name="width_hint">அகலம் (px)</string>
+    <string name="height_hint">உயரம் (px)</string>
+    <string name="result_preview">முடிவு: -</string>
+    <string name="adjust_image">படத்தை சரிசெய்</string>
+    <string name="compress_image">படத்தை அமுக்கு</string>
+    <string name="quality">தரம்</string>
+    <string name="quality_value">தரம்: %d%%</string>
+    <string name="quality_default">தரம்: 80%</string>
+    <string name="original_size">அசல்: -</string>
+    <string name="compressed_size">அமுக்கப்பட்டது: -</string>
+    <string name="compressed_size_per_image">அமுக்கப்பட்டது: - ஒரு படத்திற்கு</string>
+    <string name="estimated_savings">மதிப்பிடப்பட்ட சேமிப்பு: -</string>
+    <string name="rotate_or_mirror">சுழற்று அல்லது பிரதிபலி</string>
+    <string name="rotate_90">90°</string>
+    <string name="rotate_180">180°</string>
+    <string name="rotate_minus_90">-90°</string>
+    <string name="mirror_h">கிடைமட்ட பிரதிபலிப்பு</string>
+
+    <!-- Image Adjust Controls -->
+    <string name="brightness">பிரகாசம்</string>
+    <string name="contrast">மாறுபாடு</string>
+    <string name="temperature">வெப்பநிலை</string>
+    <string name="blur">மங்கலாக்கு</string>
+
+    <!-- Passport Size Photo -->
+    <string name="select_page_size">பக்க அளவைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="page_4x6">4×6 (8 புகைப்படங்கள்)</string>
+    <string name="page_a4">A4 4 புகைப்பட வரிசை (32)</string>
+    <string name="page_b4">A4 5 புகைப்பட வரிசை (40)</string>
+    <string name="photos_label">புகைப்படங்கள்: </string>
+    <string name="page_full_page_print">முழு பக்க அச்சு</string>
+    <string name="fullpage_4x6">4×6</string>
+    <string name="fullpage_a4">A4</string>
+    <string name="generate_layout">அமைப்பை உருவாக்கு</string>
+    <string name="page">பக்கம்</string>
+    <string name="crop_applied">செதுக்கல் பயன்படுத்தப்பட்டது</string>
+    <string name="layout_generated">அமைப்பு உருவாக்கப்பட்டது: %1$d×%2$d = %3$d புகைப்படங்கள்</string>
+    <string name="no_layout">அமைப்பு எதுவும் உருவாக்கப்படவில்லை. முதலில் அமைப்பை உருவாக்கவும்.</string>
+    <string name="failed_share_jpeg">JPEG பகிர முடியவில்லை</string>
+    <string name="failed_share_png">PNG பகிர முடியவில்லை</string>
+    <string name="failed_share_pdf">PDF பகிர முடியவில்லை</string>
+    <string name="pdf_saved">PDF வெற்றிகரமாக சேமிக்கப்பட்டது</string>
+    <string name="failed_pdf">PDF சேமிக்க முடியவில்லை</string>
+    <string name="jpg_saved">JPG கேலரியில் சேமிக்கப்பட்டது</string>
+    <string name="failed_jpg">JPG சேமிக்க முடியவில்லை</string>
+    <string name="fullpage_three_finger_hint">படத்தை பக்கத்தில் நகர்த்த மூன்று விரல்களைப் பயன்படுத்தவும்</string>
+    <string name="fullpage_feature_info">முழு பக்க அச்சு: உங்கள் புகைப்படத்தை முழு பக்கத்தில் வைக்கவும். விளிம்புகளை நீட்ட 1 விரல், பெரிதாக்க 2 விரல்கள், படத்தை நகர்த்த 3 விரல்கள் பயன்படுத்தவும்.</string>
+    <string name="drag_to_reposition">புகைப்படத்தை மறுநிலைப்படுத்த இழுக்கவும்</string>
+
+    <!-- Cut Inside Image -->
+    <string name="cut_mode">வெட்டு முறை:</string>
+    <string name="selection_too_small">தேர்வுப் பகுதி மிகவும் சிறியதாக உள்ளது</string>
+
+    <!-- Batch Processing -->
+    <string name="batch_resize">பிக்சலில் தொகுப்பு அளவு மாற்றம்</string>
+    <string name="batch_compress">தொகுப்பு அமுக்கம்</string>
+    <string name="select_images_first">முதலில் படங்களைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="enter_valid_dimensions">சரியான பரிமாணங்களை உள்ளிடவும்</string>
+    <string name="batch_resize_completed">தொகுப்பு அளவு மாற்றம் முடிந்தது</string>
+    <string name="batch_compress_completed">தொகுப்பு அமுக்கம் முடிந்தது</string>
+    <string name="file_name">கோப்பு பெயர்</string>
+    <string name="output_format">வெளியீட்டு வடிவம்</string>
+    <string name="format_jpeg">JPEG</string>
+    <string name="format_png">PNG</string>
+    <string name="format_pdf">PDF</string>
+    <string name="dimensions">பரிமாணங்கள்</string>
+
+    <!-- Photo Stitch -->
+    <string name="stitch_mode_vertical">செங்குத்து</string>
+    <string name="stitch_mode_horizontal">கிடைமட்ட</string>
+    <string name="stitch_mode_grid">கட்டம் 2x2</string>
+    <string name="stitch">இணை</string>
+    <string name="select_at_least_2">குறைந்தது 2 புகைப்படங்களைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="grid_requires_4">கட்ட முறைக்கு சரியாக 4 புகைப்படங்கள் தேவை</string>
+
+    <!-- Menu -->
+    <string name="menu_night_mode">இரவு முறை</string>
+    <string name="menu_theme">தீம்</string>
+    <string name="menu_language">மொழி</string>
+    <string name="menu_support">ஆதரவு</string>
+    <string name="menu_privacy">தனியுரிமைக் கொள்கை</string>
+    <string name="menu_share">பயன்பாட்டைப் பகிர்</string>
+    <string name="select_theme">தீம் தேர்ந்தெடுக்கவும்</string>
+    <string name="select_language">மொழியைத் தேர்ந்தெடுக்கவும்</string>
+
+    <!-- Status Messages -->
+    <string name="processing_count">%d படங்கள் செயலாக்கப்படுகின்றன…</string>
+    <string name="image_saved">படம் கேலரியில் சேமிக்கப்பட்டது</string>
+    <string name="failed_save">படத்தை சேமிக்க முடியவில்லை</string>
+    <string name="add_image_first">முதலில் கேன்வாஸில் படத்தைச் சேர்க்கவும்</string>
+    <string name="no_image_to_save">சேமிக்க படம் எதுவும் இல்லை</string>
+    <string name="no_internet">இணையத்தை இயக்கவும்</string>
+    <string name="cannot_open_image">படத்தைத் திறக்க முடியவில்லை</string>
+    <string name="contact_support">தொடர்பு: hitbhatech@gmail.com</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_thumbnail">சிறு உருவம்</string>
+    <string name="cd_history">வரலாறு</string>
+    <string name="history">வரலாறு</string>
+    <string name="cd_undo">செயல்தவிர்</string>
+    <string name="cd_redo">மீண்டும் செய்</string>
+    <string name="cd_prev_page">முந்தைய பக்கம்</string>
+    <string name="cd_next_page">அடுத்த பக்கம்</string>
+    <string name="crop_desc">படத்தை செதுக்கு</string>
+    <string name="select_page_desc">பக்க அளவைத் தேர்ந்தெடு</string>
+    <string name="save_desc">அமைப்பை சேமி</string>
+    <string name="share_desc">அமைப்பை பகிர்</string>
+
+    <!-- Share -->
+    <string name="share_app">பகிர்</string>
+    <string name="share_text">பயன்பாட்டைப் பாருங்கள்: https://play.google.com/store/apps/details?id=</string>
+
+    <!-- Tools / Eraser -->
+    <string name="eraser">அழிப்பான்</string>
+    <string name="delete_image">நீக்கு</string>
+    <string name="delete_image_confirm">தற்போதைய படத்தை திருத்தியிலிருந்து நீக்கவா?</string>
+    <string name="color_erase">வண்ண அழிப்பான்</string>
+    <string name="brush_size">அளவு</string>
+    <string name="remove_bg">பின்புலத்தை அகற்று</string>
+    <string name="remove_bg_confirm">பின்புலத்தை தானாகக் கண்டறிந்து அகற்றவா? விளிம்பு பின்புல வண்ணத்துடன் பொருந்தும் பிக்சல்கள் வெளிப்படையானதாக மாற்றப்படும்.</string>
+    <string name="bg_tools_remove_bg">பின்புலத்தை அகற்று</string>
+    <string name="bg_tools_brush_eraser">தூரிகை அழிப்பான்</string>
+    <string name="bg_tools_color_eraser">வண்ண அழிப்பான்</string>
+
+    <string name="bg_tools_magic_remove">மேஜிக் அகற்று</string>
+
+    <string name="magic_pick_color_hint">அகற்ற வேண்டிய நிறத்தைத் தேர்வு செய்ய புகைப்படத்தில் தட்டவும்</string>
+
+    <string name="magic_color_picked_hint">நிறம் தேர்வு செய்யப்பட்டது - அழிக்க புகைப்படத்தின் மீது வரையவும்</string>
+    <string name="final_touches">இறுதித் தொடுதல்கள்</string>
+    <string name="final_touches_desc">உங்கள் படத்திற்கு இறுதி விளைவுகளைப் பயன்படுத்தவும்</string>
+    <string name="feather_edges">விளிம்புகளை மென்மையாக்கு</string>
+    <string name="feather_edges_desc">பொருள் மற்றும் பின்புலத்திற்கு இடையேயான எல்லையை மென்மையாக்கவும்</string>
+    <string name="fill_background">பின்புலத்தை நிரப்பு</string>
+    <string name="fill_background_desc">வெளிப்படையான பகுதிகளை ஒரு திட வண்ணத்துடன் மாற்றவும்</string>
+    <string name="outline_remove">வெளிக்கோட்டை அகற்று</string>
+    <string name="outline_remove_desc">விளிம்புகளிலிருந்து எஞ்சிய பின்புல வெளிக்கோட்டை அகற்றவும் (3-5px பரிந்துரைக்கப்படுகிறது)</string>
+
+    <!-- Adjust Controls -->
+    <string name="saturation">நிறைவு</string>
+    <string name="highlights">உயரொளிகள்</string>
+    <string name="shadows">நிழல்கள்</string>
+    <string name="exposure">வெளிப்பாடு</string>
+    <string name="sharpen">கூர்மையாக்கு</string>
+    <string name="vignette">விக்னெட்</string>
+
+    <!-- Background Removal -->
+    <string name="bg_removed">பின்புலம் அகற்றப்பட்டது</string>
+    <string name="use_editor_for_eraser">அழிப்பான் கருவிகளுக்கு படத் திருத்தியைப் பயன்படுத்தவும்</string>
+
+    <!-- Page Size Dialog -->
+    <string name="rows">வரிசைகள்</string>
+
+    <!-- Cut Modes -->
+    <string-array name="cut_modes">
+        <item>கிடைமட்ட வெட்டு</item>
+        <item>செங்குத்து வெட்டு</item>
+    </string-array>
+</resources>

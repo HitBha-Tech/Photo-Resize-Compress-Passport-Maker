@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Photo: Resize, Compress &amp; Passport Maker</string>
+
+    <!-- Feature Names & Descriptions -->
+    <string name="single_image_edit">Einzelbild bearbeiten</string>
+    <string name="single_image_edit_desc">Größe ändern, zuschneiden, anpassen, komprimieren</string>
+    <string name="batch_processing">Stapelverarbeitung</string>
+    <string name="batch_processing_desc">Mehrere Bilder gleichzeitig bearbeiten/komprimieren</string>
+    <string name="image_stitch">Bilder zusammenfügen</string>
+    <string name="image_stitch_desc">Mehrere Bilder kombinieren</string>
+    <string name="cut_inside_image">Innenbereich ausschneiden</string>
+    <string name="cut_inside_image_desc">Quadratischen Bereich aus Bild ausschneiden</string>
+    <string name="passport_size_photo">Passfoto</string>
+    <string name="passport_size_photo_desc">Passfoto-Blätter erstellen</string>
+    <string name="image_editor">Bildeditor</string>
+    <string name="saved_images">Gespeicherte Bilder</string>
+    <string name="no_saved_images">Noch keine gespeicherten Bilder</string>
+
+    <!-- Common Actions -->
+    <string name="resize">Größe ändern</string>
+    <string name="crop">Zuschneiden</string>
+    <string name="adjust">Anpassen</string>
+    <string name="compress">Komprimieren</string>
+    <string name="rotate">Drehen</string>
+    <string name="cut">Ausschneiden</string>
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="apply">Anwenden</string>
+    <string name="done">Fertig</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="share">Teilen</string>
+    <string name="select">Auswählen</string>
+    <string name="remove">X</string>
+
+    <!-- Editor Dialogs -->
+    <string name="resize_image">Bildgröße ändern</string>
+    <string name="keep_aspect_ratio">Seitenverhältnis beibehalten</string>
+    <string name="width_hint">Breite (px)</string>
+    <string name="height_hint">Höhe (px)</string>
+    <string name="result_preview">Ergebnis: -</string>
+    <string name="adjust_image">Bild anpassen</string>
+    <string name="compress_image">Bild komprimieren</string>
+    <string name="quality">Qualität</string>
+    <string name="quality_value">Qualität: %d%%</string>
+    <string name="quality_default">Qualität: 80%</string>
+    <string name="original_size">Original: -</string>
+    <string name="compressed_size">Komprimiert: -</string>
+    <string name="compressed_size_per_image">Komprimiert: - pro Bild</string>
+    <string name="estimated_savings">Geschätzte Ersparnis: -</string>
+    <string name="rotate_or_mirror">Drehen oder spiegeln</string>
+    <string name="rotate_90">90°</string>
+    <string name="rotate_180">180°</string>
+    <string name="rotate_minus_90">-90°</string>
+    <string name="mirror_h">Horizontal spiegeln</string>
+
+    <!-- Image Adjust Controls -->
+    <string name="brightness">Helligkeit</string>
+    <string name="contrast">Kontrast</string>
+    <string name="temperature">Temperatur</string>
+    <string name="blur">Weichzeichnen</string>
+
+    <!-- Passport Size Photo -->
+    <string name="select_page_size">Seitengröße auswählen</string>
+    <string name="page_4x6">4×6 (8 Fotos)</string>
+    <string name="page_a4">A4 4 Photo raw (32)</string>
+    <string name="page_b4">A4 5 Photo raw (40)</string>
+    <string name="photos_label">Fotos: </string>
+    <string name="page_full_page_print">Ganzseitiger Druck</string>
+    <string name="fullpage_4x6">4×6</string>
+    <string name="fullpage_a4">A4</string>
+    <string name="generate_layout">Layout generieren</string>
+    <string name="page">Seite</string>
+    <string name="crop_applied">Zuschnitt angewendet</string>
+    <string name="layout_generated">Layout generiert: %1$d×%2$d = %3$d Fotos</string>
+    <string name="no_layout">Kein Layout generiert. Bitte zuerst Layout generieren.</string>
+    <string name="failed_share_jpeg">JPEG konnte nicht geteilt werden</string>
+    <string name="failed_share_png">PNG konnte nicht geteilt werden</string>
+    <string name="failed_share_pdf">PDF konnte nicht geteilt werden</string>
+    <string name="pdf_saved">PDF erfolgreich gespeichert</string>
+    <string name="failed_pdf">PDF konnte nicht gespeichert werden</string>
+    <string name="jpg_saved">JPG in Galerie gespeichert</string>
+    <string name="failed_jpg">JPG konnte nicht gespeichert werden</string>
+    <string name="fullpage_three_finger_hint">Verwende drei Finger, um das Bild auf der Seite zu verschieben</string>
+    <string name="fullpage_feature_info">Ganzseitiger Druck: Platziere dein Foto auf einer ganzen Seite. Verwende 1 Finger zum Dehnen der Kanten, 2 Finger zum Zoomen, 3 Finger zum Verschieben des Bildes.</string>
+    <string name="drag_to_reposition">Ziehen, um das Foto zu positionieren</string>
+
+    <!-- Cut Inside Image -->
+    <string name="cut_mode">Schnittmodus:</string>
+    <string name="selection_too_small">Der Auswahlbereich ist zu klein</string>
+
+    <!-- Batch Processing -->
+    <string name="batch_resize">Stapelweise Größe in Pixel ändern</string>
+    <string name="batch_compress">Stapelweise komprimieren</string>
+    <string name="select_images_first">Bitte zuerst Bilder auswählen</string>
+    <string name="enter_valid_dimensions">Bitte gültige Maße eingeben</string>
+    <string name="batch_resize_completed">Stapelweise Größenänderung abgeschlossen</string>
+    <string name="batch_compress_completed">Stapelweise Komprimierung abgeschlossen</string>
+    <string name="file_name">Dateiname</string>
+    <string name="output_format">Ausgabeformat</string>
+    <string name="format_jpeg">JPEG</string>
+    <string name="format_png">PNG</string>
+    <string name="format_pdf">PDF</string>
+    <string name="dimensions">Abmessungen</string>
+
+    <!-- Photo Stitch -->
+    <string name="stitch_mode_vertical">Vertikal</string>
+    <string name="stitch_mode_horizontal">Horizontal</string>
+    <string name="stitch_mode_grid">Raster 2x2</string>
+    <string name="stitch">Zusammenfügen</string>
+    <string name="select_at_least_2">Bitte mindestens 2 Fotos auswählen</string>
+    <string name="grid_requires_4">Raster-Modus erfordert genau 4 Fotos</string>
+
+    <!-- Menu -->
+    <string name="menu_night_mode">Nachtmodus</string>
+    <string name="menu_theme">Design</string>
+    <string name="menu_language">Sprache</string>
+    <string name="menu_support">Support</string>
+    <string name="menu_privacy">Datenschutz</string>
+    <string name="menu_share">App teilen</string>
+    <string name="select_theme">Design auswählen</string>
+    <string name="select_language">Sprache auswählen</string>
+
+    <!-- Status Messages -->
+    <string name="processing_count">%d Bilder werden verarbeitet…</string>
+    <string name="image_saved">Bild in Galerie gespeichert</string>
+    <string name="failed_save">Bild konnte nicht gespeichert werden</string>
+    <string name="add_image_first">Zuerst ein Bild in der Leinwand hinzufügen</string>
+    <string name="no_image_to_save">Kein Bild zum Speichern</string>
+    <string name="no_internet">Internet einschalten</string>
+    <string name="cannot_open_image">Bild kann nicht geöffnet werden</string>
+    <string name="contact_support">Kontakt: hitbhatech@gmail.com</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_thumbnail">Vorschaubild</string>
+    <string name="cd_history">Verlauf</string>
+    <string name="history">Verlauf</string>
+    <string name="cd_undo">Rückgängig</string>
+    <string name="cd_redo">Wiederholen</string>
+    <string name="cd_prev_page">Vorherige Seite</string>
+    <string name="cd_next_page">Nächste Seite</string>
+    <string name="crop_desc">Bild zuschneiden</string>
+    <string name="select_page_desc">Seitengröße auswählen</string>
+    <string name="save_desc">Layout speichern</string>
+    <string name="share_desc">Layout teilen</string>
+
+    <!-- Share -->
+    <string name="share_app">Teilen</string>
+    <string name="share_text">Schau dir die App an: https://play.google.com/store/apps/details?id=</string>
+
+    <!-- Tools / Eraser -->
+    <string name="eraser">Radierer</string>
+    <string name="delete_image">Löschen</string>
+    <string name="delete_image_confirm">Das aktuelle Bild aus dem Editor löschen?</string>
+    <string name="color_erase">Farbradierer</string>
+    <string name="brush_size">Größe</string>
+    <string name="remove_bg">Hintergrund entfernen</string>
+    <string name="remove_bg_confirm">Hintergrund automatisch erkennen und entfernen? Pixel, die der Randhintergrundfarbe entsprechen, werden transparent gemacht.</string>
+    <string name="bg_tools_remove_bg">Hintergrund entfernen</string>
+    <string name="bg_tools_brush_eraser">Pinselradierer</string>
+    <string name="bg_tools_color_eraser">Farbradierer</string>
+
+    <string name="bg_tools_magic_remove">Magisch entfernen</string>
+
+    <string name="magic_pick_color_hint">Tippe auf das Foto, um eine Farbe zum Entfernen zu wählen</string>
+
+    <string name="magic_color_picked_hint">Farbe ausgewählt - male über das Foto, um sie zu entfernen</string>
+    <string name="final_touches">Letzte Handgriffe</string>
+    <string name="final_touches_desc">Wende abschließende Effekte auf dein Bild an</string>
+    <string name="feather_edges">Kanten weichzeichnen</string>
+    <string name="feather_edges_desc">Grenze zwischen Motiv und Hintergrund glätten</string>
+    <string name="fill_background">Hintergrund füllen</string>
+    <string name="fill_background_desc">Transparente Bereiche durch eine einfarbige Farbe ersetzen</string>
+    <string name="outline_remove">Kontur entfernen</string>
+    <string name="outline_remove_desc">Restliche Hintergrundkontur von Kanten entfernen (3-5px empfohlen)</string>
+
+    <!-- Adjust Controls -->
+    <string name="saturation">Sättigung</string>
+    <string name="highlights">Lichter</string>
+    <string name="shadows">Schatten</string>
+    <string name="exposure">Belichtung</string>
+    <string name="sharpen">Schärfen</string>
+    <string name="vignette">Vignette</string>
+
+    <!-- Background Removal -->
+    <string name="bg_removed">Hintergrund entfernt</string>
+    <string name="use_editor_for_eraser">Verwende den Bildeditor für Radierer-Werkzeuge</string>
+
+    <!-- Page Size Dialog -->
+    <string name="rows">Zeilen</string>
+
+    <!-- Cut Modes -->
+    <string-array name="cut_modes">
+        <item>Horizontaler Schnitt</item>
+        <item>Vertikaler Schnitt</item>
+    </string-array>
+</resources>

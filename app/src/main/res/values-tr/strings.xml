@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Photo: Resize, Compress &amp; Passport Maker</string>
+
+    <!-- Feature Names & Descriptions -->
+    <string name="single_image_edit">Tek Görüntü Düzenleme</string>
+    <string name="single_image_edit_desc">Yeniden boyutlandır, kırp, ayarla, sıkıştır</string>
+    <string name="batch_processing">Toplu İşlem</string>
+    <string name="batch_processing_desc">Birden çok görüntüyü yeniden boyutlandır/sıkıştır</string>
+    <string name="image_stitch">Görüntü Birleştirme</string>
+    <string name="image_stitch_desc">Birden çok görüntüyü birleştir</string>
+    <string name="cut_inside_image">İçini Kes</string>
+    <string name="cut_inside_image_desc">Görüntüden kare bölge kes</string>
+    <string name="passport_size_photo">Pasaport Boyutu Fotoğraf</string>
+    <string name="passport_size_photo_desc">Pasaport fotoğraf sayfaları oluştur</string>
+    <string name="image_editor">Görüntü Düzenleyici</string>
+    <string name="saved_images">Kaydedilen Görüntüler</string>
+    <string name="no_saved_images">Henüz kaydedilmiş görüntü yok</string>
+
+    <!-- Common Actions -->
+    <string name="resize">Yeniden Boyutlandır</string>
+    <string name="crop">Kırp</string>
+    <string name="adjust">Ayarla</string>
+    <string name="compress">Sıkıştır</string>
+    <string name="rotate">Döndür</string>
+    <string name="cut">Kes</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">İptal</string>
+    <string name="apply">Uygula</string>
+    <string name="reset">Sıfırla</string>
+    <string name="share">Paylaş</string>
+    <string name="select">Seç</string>
+    <string name="remove">X</string>
+
+    <!-- Editor Dialogs -->
+    <string name="resize_image">Görüntüyü Yeniden Boyutlandır</string>
+    <string name="keep_aspect_ratio">En Boy Oranını Koru</string>
+    <string name="width_hint">Genişlik (px)</string>
+    <string name="height_hint">Yükseklik (px)</string>
+    <string name="result_preview">Sonuç: -</string>
+
+    <string name="adjust_image">Görüntüyü Ayarla</string>
+    <string name="compress_image">Görüntüyü Sıkıştır</string>
+    <string name="quality">Kalite</string>
+    <string name="quality_value">Kalite: %d%%</string>
+    <string name="quality_default">Kalite: %80</string>
+    <string name="original_size">Orijinal: -</string>
+    <string name="compressed_size">Sıkıştırılmış: -</string>
+    <string name="compressed_size_per_image">Sıkıştırılmış: - görüntü başına</string>
+    <string name="estimated_savings">Tahmini tasarruf: -</string>
+    <string name="rotate_or_mirror">Döndür veya Ayna</string>
+    <string name="rotate_90">90°</string>
+    <string name="rotate_180">180°</string>
+    <string name="rotate_minus_90">-90°</string>
+    <string name="mirror_h">Ayna Y</string>
+
+    <!-- Image Adjust Controls -->
+    <string name="brightness">Parlaklık</string>
+    <string name="contrast">Kontrast</string>
+    <string name="temperature">Sıcaklık</string>
+    <string name="blur">Bulanıklaştır</string>
+
+    <!-- Passport Size Photo -->
+    <string name="select_page_size">Sayfa Boyutu Seç</string>
+    <string name="page_4x6">4×6 (8 fotoğraf)</string>
+    <string name="page_a4">A4 4 Fotoğraf sıra (32)</string>
+    <string name="page_b4">A4 5 Fotoğraf sıra (40)</string>
+    <string name="photos_label">Fotoğraflar: </string>
+    <string name="page_full_page_print">Tam sayfa yazdır</string>
+    <string name="fullpage_4x6">4×6</string>
+    <string name="fullpage_a4">A4</string>
+    <string name="generate_layout">Yerleşim Oluştur</string>
+    <string name="page">Sayfa</string>
+    <string name="crop_applied">Kırpma uygulandı</string>
+    <string name="layout_generated">Yerleşim oluşturuldu: %1$d×%2$d = %3$d fotoğraf</string>
+    <string name="no_layout">Yerleşim oluşturulmadı. Lütfen önce yerleşim oluşturun.</string>
+    <string name="failed_share_jpeg">JPEG paylaşılamadı</string>
+    <string name="failed_share_png">PNG paylaşılamadı</string>
+    <string name="failed_share_pdf">PDF paylaşılamadı</string>
+    <string name="pdf_saved">PDF başarıyla kaydedildi</string>
+    <string name="failed_pdf">PDF kaydedilemedi</string>
+    <string name="jpg_saved">JPG galeriye kaydedildi</string>
+    <string name="failed_jpg">JPG kaydedilemedi</string>
+    <string name="fullpage_three_finger_hint">Görüntüyü sayfada taşımak için üç parmak kullanın</string>
+    <string name="fullpage_feature_info">Tam Sayfa Yazdır: Fotoğrafınızı tam sayfaya yerleştirin. Kenarları germek için 1 parmak, yakınlaştırmak için 2 parmak, görüntüyü taşımak için 3 parmak kullanın.</string>
+    <string name="drag_to_reposition">Fotoğrafı yeniden konumlandırmak için sürükleyin</string>
+
+    <!-- Cut Inside Image -->
+    <string name="cut_mode">Kesme Modu:</string>
+    <string name="selection_too_small">Seçim alanı çok küçük</string>
+
+    <!-- Batch Processing -->
+    <string name="batch_resize">Piksel Olarak Toplu Yeniden Boyutlandır</string>
+    <string name="batch_compress">Toplu Sıkıştır</string>
+    <string name="select_images_first">Lütfen önce görüntüleri seçin</string>
+    <string name="enter_valid_dimensions">Lütfen geçerli boyutlar girin</string>
+    <string name="batch_resize_completed">Toplu yeniden boyutlandırma tamamlandı</string>
+    <string name="batch_compress_completed">Toplu sıkıştırma tamamlandı</string>
+    <string name="output_format">Çıktı Biçimi</string>
+    <string name="format_jpeg">JPEG</string>
+    <string name="format_png">PNG</string>
+    <string name="format_pdf">PDF</string>
+    <string name="dimensions">Boyutlar</string>
+
+    <!-- Photo Stitch -->
+    <string name="stitch_mode_vertical">Dikey</string>
+    <string name="stitch_mode_horizontal">Yatay</string>
+    <string name="stitch_mode_grid">Izgara 2x2</string>
+    <string name="stitch">Birleştir</string>
+    <string name="select_at_least_2">Lütfen en az 2 fotoğraf seçin</string>
+    <string name="grid_requires_4">Izgara modu tam olarak 4 fotoğraf gerektirir</string>
+
+    <!-- Menu -->
+    <string name="menu_night_mode">Gece Modu</string>
+    <string name="menu_theme">Tema</string>
+    <string name="menu_language">Dil</string>
+    <string name="menu_support">Destek</string>
+    <string name="menu_privacy">Gizlilik Politikası</string>
+    <string name="menu_share">Uygulamayı Paylaş</string>
+    <string name="select_theme">Tema Seç</string>
+    <string name="select_language">Dil Seç</string>
+
+    <!-- Status Messages -->
+    <string name="processing_count">%d görüntü işleniyor…</string>
+    <string name="image_saved">Görüntü galeriye kaydedildi</string>
+    <string name="failed_save">Görüntü kaydedilemedi</string>
+    <string name="add_image_first">Önce tuval görüntü ekleyin</string>
+    <string name="no_image_to_save">Kaydedilecek görüntü yok</string>
+    <string name="no_internet">İnterneti Açın</string>
+    <string name="cannot_open_image">Görüntü açılamıyor</string>
+    <string name="contact_support">İletişim: hitbhatech@gmail.com</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_thumbnail">Küçük resim</string>
+    <string name="cd_history">Geçmiş</string>
+    <string name="history">Geçmiş</string>
+    <string name="cd_undo">Geri Al</string>
+    <string name="cd_redo">Yinele</string>
+    <string name="crop_desc">Görüntüyü Kırp</string>
+    <string name="select_page_desc">Sayfa Boyutu Seç</string>
+    <string name="save_desc">Yerleşimi Kaydet</string>
+    <string name="share_desc">Yerleşimi Paylaş</string>
+
+    <!-- Share -->
+    <string name="share_app">Paylaş</string>
+    <string name="share_text">Uygulamaya göz atın: https://play.google.com/store/apps/details?id=</string>
+
+    <!-- Cut Modes -->
+    <string-array name="cut_modes">
+        <item>Yatay Kesim</item>
+        <item>Dikey Kesim</item>
+    </string-array>
+    <!-- Tools / Eraser -->
+    <string name="eraser">Silgi</string>
+    <string name="delete_image">Sil</string>
+    <string name="delete_image_confirm">Geçerli görüntü düzenleyiciden silinsin mi?</string>
+    <string name="color_erase">Renk Silgisi</string>
+    <string name="brush_size">Boyut</string>
+    <string name="remove_bg">Arka Planı Kaldır</string>
+    <string name="remove_bg_confirm">Arka plan otomatik olarak algılansın ve kaldırılsın mı? Kenar arka plan rengiyle eşleşen pikseller saydam yapılacaktır.</string>
+    <string name="bg_tools_remove_bg">Arka Planı Kaldır</string>
+    <string name="bg_tools_brush_eraser">Fırça Silgisi</string>
+    <string name="bg_tools_color_eraser">Renk Silgisi</string>
+
+    <string name="bg_tools_magic_remove">Sihirli Silme</string>
+
+    <string name="magic_pick_color_hint">Kaldırmak için bir renk seçmek üzere fotoğrafa dokunun</string>
+
+    <string name="magic_color_picked_hint">Renk seçildi - silmek için fotoğrafın üzerine boyayın</string>
+    <string name="final_touches">Son Dokunuşlar</string>
+    <string name="final_touches_desc">Görüntünüze son efektler uygulayın</string>
+    <string name="feather_edges">Kenarları Yumuşat</string>
+    <string name="feather_edges_desc">Nesne ile arka plan arasındaki sınırı yumuşatın</string>
+    <string name="fill_background">Arka Planı Doldur</string>
+    <string name="fill_background_desc">Saydam alanları düz bir renkle değiştirin</string>
+    <string name="outline_remove">Ana Hat Kaldır</string>
+    <string name="outline_remove_desc">Kenarlardan artık arka plan ana hattını kaldırın (3-5px önerilir)</string>
+    <string name="bg_removed">Arka plan kaldırıldı</string>
+    <string name="use_editor_for_eraser">Silgi araçları için görüntü düzenleyiciyi kullanın</string>
+    <string name="done">Tamam</string>
+    <!-- Page Size Dialog -->
+    <string name="rows">Satırlar</string>
+    <!-- Adjust Controls -->
+    <string name="saturation">Doygunluk</string>
+    <string name="highlights">Vurgular</string>
+    <string name="shadows">Gölgeler</string>
+    <string name="exposure">Pozlama</string>
+    <string name="sharpen">Keskinleştir</string>
+    <string name="vignette">Vinyet</string>
+    <!-- Content Descriptions -->
+    <string name="cd_prev_page">Önceki sayfa</string>
+    <string name="cd_next_page">Sonraki sayfa</string>
+    <!-- Save/Share -->
+    <string name="file_name">Dosya Adı</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Corner radii -->
+    <dimen name="corner_small">8dp</dimen>
+    <dimen name="corner_medium">12dp</dimen>
+    <dimen name="corner_large">16dp</dimen>
+    <dimen name="corner_xlarge">24dp</dimen>
+
+    <!-- Pill shape -->
+    <dimen name="pill_corner">48dp</dimen>
+
+    <!-- Button heights -->
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_height_small">40dp</dimen>
+
+    <!-- Bottom bar -->
+    <dimen name="bottom_bar_padding">12dp</dimen>
+    <dimen name="bottom_nav_margin">8dp</dimen>
+
+    <!-- Card -->
+    <dimen name="card_corner">16dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
+    <!-- Spacing -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">12dp</dimen>
+    <dimen name="spacing_lg">16dp</dimen>
+    <dimen name="spacing_xl">24dp</dimen>
+    <dimen name="spacing_xxl">32dp</dimen>
+
+    <!-- Icon size -->
+    <dimen name="icon_size_small">20dp</dimen>
+    <dimen name="icon_size_medium">24dp</dimen>
+    <dimen name="icon_size_large">32dp</dimen>
+
+    <!-- Tablet breakpoints -->
+    <dimen name="tablet_max_width">600dp</dimen>
+
+    <!-- Chip -->
+    <dimen name="chip_corner">20dp</dimen>
+
+    <!-- Thumbnail -->
+    <dimen name="thumb_size">72dp</dimen>
+    <dimen name="thumb_size_large">108dp</dimen>
+
+    <!-- Adjust button -->
+    <dimen name="adjust_icon_size">48dp</dimen>
+    <dimen name="adjust_dot_size">8dp</dimen>
+    <dimen name="adjust_dot_margin">4dp</dimen>
+
+    <!-- Carousel -->
+    <dimen name="carousel_height">20dp</dimen>
+
+    <!-- Dialog -->
+    <dimen name="dialog_max_height">560dp</dimen>
+</resources>

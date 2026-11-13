@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Photo: Resize, Compress &amp; Passport Maker</string>
+
+    <!-- Feature Names & Descriptions -->
+    <string name="single_image_edit">单图编辑</string>
+    <string name="single_image_edit_desc">调整大小、裁剪、调节、压缩</string>
+    <string name="batch_processing">批量处理</string>
+    <string name="batch_processing_desc">批量调整大小/压缩多张图片</string>
+    <string name="image_stitch">图片拼接</string>
+    <string name="image_stitch_desc">合并多张图片</string>
+    <string name="cut_inside_image">内部裁剪</string>
+    <string name="cut_inside_image_desc">从图片中裁剪方形区域</string>
+    <string name="passport_size_photo">护照尺寸照片</string>
+    <string name="passport_size_photo_desc">创建护照照片排版</string>
+    <string name="image_editor">图片编辑器</string>
+    <string name="saved_images">已保存的图片</string>
+    <string name="no_saved_images">暂无已保存的图片</string>
+
+    <!-- Common Actions -->
+    <string name="resize">调整大小</string>
+    <string name="crop">裁剪</string>
+    <string name="adjust">调节</string>
+    <string name="compress">压缩</string>
+    <string name="rotate">旋转</string>
+    <string name="cut">裁剪</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="apply">应用</string>
+    <string name="done">完成</string>
+    <string name="reset">重置</string>
+    <string name="share">分享</string>
+    <string name="select">选择</string>
+    <string name="remove">X</string>
+
+    <!-- Editor Dialogs -->
+    <string name="resize_image">调整图片大小</string>
+    <string name="keep_aspect_ratio">保持宽高比</string>
+    <string name="width_hint">宽度（像素）</string>
+    <string name="height_hint">高度（像素）</string>
+    <string name="result_preview">结果：-</string>
+    <string name="adjust_image">调节图片</string>
+    <string name="compress_image">压缩图片</string>
+    <string name="quality">质量</string>
+    <string name="quality_value">质量：%d%%</string>
+    <string name="quality_default">质量：80%</string>
+    <string name="original_size">原始大小：-</string>
+    <string name="compressed_size">压缩后：-</string>
+    <string name="compressed_size_per_image">压缩后：- 每张图片</string>
+    <string name="estimated_savings">预计节省：-</string>
+    <string name="rotate_or_mirror">旋转或镜像</string>
+    <string name="rotate_90">90°</string>
+    <string name="rotate_180">180°</string>
+    <string name="rotate_minus_90">-90°</string>
+    <string name="mirror_h">水平镜像</string>
+
+    <!-- Image Adjust Controls -->
+    <string name="brightness">亮度</string>
+    <string name="contrast">对比度</string>
+    <string name="temperature">色温</string>
+    <string name="blur">模糊</string>
+
+    <!-- Passport Size Photo -->
+    <string name="select_page_size">选择纸张大小</string>
+    <string name="page_4x6">4×6（8 张照片）</string>
+    <string name="page_a4">A4 4 排原始（32 张）</string>
+    <string name="page_b4">A4 5 排原始（40 张）</string>
+    <string name="photos_label">照片：</string>
+    <string name="page_full_page_print">整页打印</string>
+    <string name="fullpage_4x6">4×6</string>
+    <string name="fullpage_a4">A4</string>
+    <string name="generate_layout">生成布局</string>
+    <string name="page">页面</string>
+    <string name="crop_applied">已应用裁剪</string>
+    <string name="layout_generated">已生成布局：%1$d×%2$d = %3$d 张照片</string>
+    <string name="no_layout">未生成布局。请先生成布局。</string>
+    <string name="failed_share_jpeg">分享 JPEG 失败</string>
+    <string name="failed_share_png">分享 PNG 失败</string>
+    <string name="failed_share_pdf">分享 PDF 失败</string>
+    <string name="pdf_saved">PDF 已成功保存</string>
+    <string name="failed_pdf">保存 PDF 失败</string>
+    <string name="jpg_saved">JPG 已保存到相册</string>
+    <string name="failed_jpg">保存 JPG 失败</string>
+    <string name="fullpage_three_finger_hint">使用三根手指在页面上移动图片</string>
+    <string name="fullpage_feature_info">整页打印：将照片放置在整页上。使用 1 根手指拉伸边缘，2 根手指缩放，3 根手指移动图片。</string>
+    <string name="drag_to_reposition">拖拽以重新定位照片</string>
+
+    <!-- Cut Inside Image -->
+    <string name="cut_mode">裁剪模式：</string>
+    <string name="selection_too_small">选择区域太小</string>
+
+    <!-- Batch Processing -->
+    <string name="batch_resize">按像素批量调整大小</string>
+    <string name="batch_compress">批量压缩</string>
+    <string name="select_images_first">请先选择图片</string>
+    <string name="enter_valid_dimensions">请输入有效的尺寸</string>
+    <string name="batch_resize_completed">批量调整大小已完成</string>
+    <string name="batch_compress_completed">批量压缩已完成</string>
+    <string name="file_name">文件名</string>
+    <string name="output_format">输出格式</string>
+    <string name="format_jpeg">JPEG</string>
+    <string name="format_png">PNG</string>
+    <string name="format_pdf">PDF</string>
+    <string name="dimensions">尺寸</string>
+
+    <!-- Photo Stitch -->
+    <string name="stitch_mode_vertical">垂直</string>
+    <string name="stitch_mode_horizontal">水平</string>
+    <string name="stitch_mode_grid">网格 2×2</string>
+    <string name="stitch">拼接</string>
+    <string name="select_at_least_2">请至少选择 2 张照片</string>
+    <string name="grid_requires_4">网格模式需要恰好 4 张照片</string>
+
+    <!-- Menu -->
+    <string name="menu_night_mode">夜间模式</string>
+    <string name="menu_theme">主题</string>
+    <string name="menu_language">语言</string>
+    <string name="menu_support">支持</string>
+    <string name="menu_privacy">隐私政策</string>
+    <string name="menu_share">分享应用</string>
+    <string name="select_theme">选择主题</string>
+    <string name="select_language">选择语言</string>
+
+    <!-- Status Messages -->
+    <string name="processing_count">正在处理 %d 张图片…</string>
+    <string name="image_saved">图片已保存到相册</string>
+    <string name="failed_save">保存图片失败</string>
+    <string name="add_image_first">请先在画布中添加图片</string>
+    <string name="no_image_to_save">没有要保存的图片</string>
+    <string name="no_internet">请开启网络</string>
+    <string name="cannot_open_image">无法打开图片</string>
+    <string name="contact_support">联系：hitbhatech@gmail.com</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_thumbnail">缩略图</string>
+    <string name="cd_history">历史记录</string>
+    <string name="history">历史记录</string>
+    <string name="cd_undo">撤销</string>
+    <string name="cd_redo">重做</string>
+    <string name="cd_prev_page">上一页</string>
+    <string name="cd_next_page">下一页</string>
+    <string name="crop_desc">裁剪图片</string>
+    <string name="select_page_desc">选择纸张大小</string>
+    <string name="save_desc">保存布局</string>
+    <string name="share_desc">分享布局</string>
+
+    <!-- Share -->
+    <string name="share_app">分享</string>
+    <string name="share_text">查看此应用：https://play.google.com/store/apps/details?id=</string>
+
+    <!-- Tools / Eraser -->
+    <string name="eraser">橡皮擦</string>
+    <string name="delete_image">删除</string>
+    <string name="delete_image_confirm">从编辑器中删除当前图片？</string>
+    <string name="color_erase">颜色擦除</string>
+    <string name="brush_size">大小</string>
+    <string name="remove_bg">去除背景</string>
+    <string name="remove_bg_confirm">自动检测并去除背景？与边缘背景色匹配的像素将变为透明。</string>
+    <string name="bg_tools_remove_bg">去除背景</string>
+    <string name="bg_tools_brush_eraser">画笔擦除</string>
+    <string name="bg_tools_color_eraser">颜色擦除</string>
+
+    <string name="bg_tools_magic_remove">魔法擦除</string>
+
+    <string name="magic_pick_color_hint">点击照片选取要移除的颜色</string>
+
+    <string name="magic_color_picked_hint">已选择颜色 - 在照片上涂抹以擦除</string>
+    <string name="final_touches">最终修饰</string>
+    <string name="final_touches_desc">为图片应用最终效果</string>
+    <string name="feather_edges">羽化边缘</string>
+    <string name="feather_edges_desc">平滑主体与背景之间的边界</string>
+    <string name="fill_background">填充背景</string>
+    <string name="fill_background_desc">用纯色替换透明区域</string>
+    <string name="outline_remove">去除轮廓</string>
+    <string name="outline_remove_desc">去除边缘残留的背景轮廓（推荐 3-5 像素）</string>
+
+    <!-- Adjust Controls -->
+    <string name="saturation">饱和度</string>
+    <string name="highlights">高光</string>
+    <string name="shadows">阴影</string>
+    <string name="exposure">曝光</string>
+    <string name="sharpen">锐化</string>
+    <string name="vignette">暗角</string>
+
+    <!-- Background Removal -->
+    <string name="bg_removed">背景已去除</string>
+    <string name="use_editor_for_eraser">使用图片编辑器进行擦除工具</string>
+
+    <!-- Page Size Dialog -->
+    <string name="rows">行数</string>
+
+    <!-- Cut Modes -->
+    <string-array name="cut_modes">
+        <item>水平裁剪</item>
+        <item>垂直裁剪</item>
+    </string-array>
+</resources>

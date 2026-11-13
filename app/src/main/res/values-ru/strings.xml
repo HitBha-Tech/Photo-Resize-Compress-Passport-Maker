@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Photo: Resize, Compress &amp; Passport Maker</string>
+
+    <!-- Feature Names & Descriptions -->
+    <string name="single_image_edit">Редактирование одного изображения</string>
+    <string name="single_image_edit_desc">Изменить размер, обрезать, настроить, сжать</string>
+    <string name="batch_processing">Пакетная обработка</string>
+    <string name="batch_processing_desc">Изменить размер/сжать несколько изображений</string>
+    <string name="image_stitch">Сшивание изображений</string>
+    <string name="image_stitch_desc">Объединить несколько изображений</string>
+    <string name="cut_inside_image">Вырезать внутри</string>
+    <string name="cut_inside_image_desc">Вырезать квадратную область из изображения</string>
+    <string name="passport_size_photo">Фото на паспорт</string>
+    <string name="passport_size_photo_desc">Создание листов с фото на паспорт</string>
+    <string name="image_editor">Редактор изображений</string>
+    <string name="saved_images">Сохранённые изображения</string>
+    <string name="no_saved_images">Ещё нет сохранённых изображений</string>
+
+    <!-- Common Actions -->
+    <string name="resize">Изменить размер</string>
+    <string name="crop">Обрезать</string>
+    <string name="adjust">Настроить</string>
+    <string name="compress">Сжать</string>
+    <string name="rotate">Повернуть</string>
+    <string name="cut">Вырезать</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="apply">Применить</string>
+    <string name="done">Готово</string>
+    <string name="reset">Сбросить</string>
+    <string name="share">Поделиться</string>
+    <string name="select">Выбрать</string>
+    <string name="remove">X</string>
+
+    <!-- Editor Dialogs -->
+    <string name="resize_image">Изменить размер изображения</string>
+    <string name="keep_aspect_ratio">Сохранять пропорции</string>
+    <string name="width_hint">Ширина (пикс)</string>
+    <string name="height_hint">Высота (пикс)</string>
+    <string name="result_preview">Результат: -</string>
+
+    <string name="adjust_image">Настроить изображение</string>
+    <string name="compress_image">Сжать изображение</string>
+    <string name="quality">Качество</string>
+    <string name="quality_value">Качество: %d%%</string>
+    <string name="quality_default">Качество: 80%</string>
+    <string name="compressed_size_per_image">Сжато: - за изображение</string>
+    <string name="original_size">Оригинал: -</string>
+    <string name="compressed_size">Сжато: -</string>
+    <string name="estimated_savings">Примерная экономия: -</string>
+    <string name="rotate_or_mirror">Поворот или зеркало</string>
+    <string name="rotate_90">90°</string>
+    <string name="rotate_180">180°</string>
+    <string name="rotate_minus_90">-90°</string>
+    <string name="mirror_h">Зеркало Г</string>
+
+    <!-- Image Adjust Controls -->
+    <string name="brightness">Яркость</string>
+    <string name="contrast">Контраст</string>
+    <string name="temperature">Температура</string>
+    <string name="blur">Размытие</string>
+
+    <!-- Passport Size Photo -->
+    <string name="select_page_size">Выберите размер страницы</string>
+    <string name="page_4x6">4×6 (8 фото)</string>
+    <string name="page_a4">A4 4 фото в ряд (32)</string>
+    <string name="page_b4">A4 5 фото в ряд (40)</string>
+    <string name="photos_label">Фото: </string>
+    <string name="generate_layout">Создать макет</string>
+    <string name="page">Страница</string>
+    <string name="crop_applied">Обрезка применена</string>
+    <string name="no_layout">Макет не создан. Пожалуйста, сначала создайте макет.</string>
+    <string name="failed_share_jpeg">Не удалось поделиться JPEG</string>
+    <string name="failed_share_pdf">Не удалось поделиться PDF</string>
+    <string name="layout_generated">Макет создан: %1$d×%2$d = %3$d фото</string>
+    <string name="pdf_saved">PDF успешно сохранён</string>
+    <string name="failed_pdf">Не удалось сохранить PDF</string>
+    <string name="jpg_saved">JPG сохранён в галерею</string>
+    <string name="failed_jpg">Не удалось сохранить JPG</string>
+    <string name="page_full_page_print">Печать на всю страницу</string>
+    <string name="fullpage_4x6">4×6</string>
+    <string name="fullpage_a4">A4</string>
+    <string name="fullpage_three_finger_hint">Используйте три пальца для перемещения изображения по странице</string>
+    <string name="fullpage_feature_info">Печать на всю страницу: Разместите фото на полной странице. Используйте 1 палец для растягивания краёв, 2 пальца для масштабирования, 3 пальца для перемещения изображения.</string>
+    <string name="drag_to_reposition">Перетащите для перемещения фото</string>
+
+    <!-- Cut Inside Image -->
+    <string name="cut_mode">Режим вырезания:</string>
+    <string name="selection_too_small">Область выделения слишком мала</string>
+
+    <!-- Batch Processing -->
+    <string name="batch_resize">Пакетное изменение размера в пикселях</string>
+    <string name="batch_compress">Пакетное сжатие</string>
+    <string name="select_images_first">Пожалуйста, сначала выберите изображения</string>
+    <string name="enter_valid_dimensions">Пожалуйста, введите правильные размеры</string>
+    <string name="batch_resize_completed">Пакетное изменение размера завершено</string>
+    <string name="batch_compress_completed">Пакетное сжатие завершено</string>
+    <string name="output_format">Формат вывода</string>
+    <string name="format_jpeg">JPEG</string>
+    <string name="format_png">PNG</string>
+    <string name="format_pdf">PDF</string>
+    <string name="dimensions">Размеры</string>
+
+    <!-- Photo Stitch -->
+    <string name="stitch_mode_vertical">Вертикально</string>
+    <string name="stitch_mode_horizontal">Горизонтально</string>
+    <string name="stitch_mode_grid">Сетка 2x2</string>
+    <string name="stitch">Сшить</string>
+    <string name="select_at_least_2">Пожалуйста, выберите хотя бы 2 фото</string>
+    <string name="grid_requires_4">Режим сетки требует ровно 4 фото</string>
+
+    <!-- Menu -->
+    <string name="menu_night_mode">Ночной режим</string>
+    <string name="menu_theme">Тема</string>
+    <string name="menu_language">Язык</string>
+    <string name="menu_support">Поддержка</string>
+    <string name="menu_privacy">Политика конфиденциальности</string>
+    <string name="menu_share">Поделиться приложением</string>
+    <string name="select_theme">Выберите тему</string>
+    <string name="select_language">Выберите язык</string>
+
+    <!-- Status Messages -->
+    <string name="processing_count">Обработка %d изображений…</string>
+    <string name="image_saved">Изображение сохранено в галерею</string>
+    <string name="failed_save">Не удалось сохранить изображение</string>
+    <string name="add_image_first">Сначала добавьте изображение на холст</string>
+    <string name="no_image_to_save">Нет изображения для сохранения</string>
+    <string name="no_internet">Включите Интернет</string>
+    <string name="cannot_open_image">Не удаётся открыть изображение</string>
+    <string name="contact_support">Контакты: hitbhatech@gmail.com</string>
+    <string name="cd_thumbnail">Миниатюра</string>
+    <string name="crop_desc">Обрезать изображение</string>
+    <string name="select_page_desc">Выберите размер страницы</string>
+    <string name="save_desc">Сохранить макет</string>
+    <string name="share_desc">Поделиться макетом</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_history">История</string>
+    <string name="history">История</string>
+    <string name="cd_undo">Отменить</string>
+    <string name="cd_redo">Повторить</string>
+
+    <!-- Share -->
+    <string name="share_app">Поделиться</string>
+    <string name="share_text">Посмотрите приложение: https://play.google.com/store/apps/details?id=</string>
+    <string name="failed_share_png">Не удалось поделиться PNG</string>
+
+    <!-- Cut Modes -->
+    <string-array name="cut_modes">
+        <item>Горизонтальное вырезание</item>
+        <item>Вертикальное вырезание</item>
+    </string-array>
+    <!-- Tools / Eraser -->
+    <string name="eraser">Ластик</string>
+    <string name="delete_image">Удалить</string>
+    <string name="delete_image_confirm">Удалить текущее изображение из редактора?</string>
+    <string name="color_erase">Цветной ластик</string>
+    <string name="brush_size">Размер</string>
+    <string name="remove_bg">Удалить фон</string>
+    <string name="remove_bg_confirm">Автоматически определить и удалить фон? Пиксели, совпадающие с цветом фона по краям, будут сделаны прозрачными.</string>
+    <string name="bg_tools_remove_bg">Удалить фон</string>
+    <string name="bg_tools_brush_eraser">Кисть-ластик</string>
+    <string name="bg_tools_color_eraser">Цветной ластик</string>
+
+    <string name="bg_tools_magic_remove">Волшебное удаление</string>
+
+    <string name="magic_pick_color_hint">Коснитесь фото, чтобы выбрать цвет для удаления</string>
+
+    <string name="magic_color_picked_hint">Цвет выбран - закрасьте фото, чтобы удалить его</string>
+    <string name="final_touches">Финальные штрихи</string>
+    <string name="final_touches_desc">Применить финишные эффекты к изображению</string>
+    <string name="feather_edges">Растушёвка краёв</string>
+    <string name="feather_edges_desc">Сгладить границу между объектом и фоном</string>
+    <string name="fill_background">Заполнить фон</string>
+    <string name="fill_background_desc">Заменить прозрачные области сплошным цветом</string>
+    <string name="outline_remove">Удаление контура</string>
+    <string name="outline_remove_desc">Удалить остаточный контур фона с краёв (рекомендуется 3-5 пикс)</string>
+    <string name="bg_removed">Фон удалён</string>
+    <string name="use_editor_for_eraser">Используйте редактор изображений для инструментов ластика</string>
+    <!-- Page Size Dialog -->
+    <string name="rows">Ряды</string>
+    <!-- Adjust Controls -->
+    <string name="saturation">Насыщенность</string>
+    <string name="highlights">Света</string>
+    <string name="shadows">Тени</string>
+    <string name="exposure">Экспозиция</string>
+    <string name="sharpen">Резкость</string>
+    <string name="vignette">Виньетка</string>
+    <!-- Content Descriptions -->
+    <string name="cd_prev_page">Предыдущая страница</string>
+    <string name="cd_next_page">Следующая страница</string>
+    <!-- Save/Share -->
+    <string name="file_name">Имя файла</string>
+</resources>

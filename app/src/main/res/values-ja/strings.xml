@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Photo: Resize, Compress &amp; Passport Maker</string>
+
+    <!-- Feature Names & Descriptions -->
+    <string name="single_image_edit">単一画像編集</string>
+    <string name="single_image_edit_desc">サイズ変更、トリミング、調整、圧縮</string>
+    <string name="batch_processing">一括処理</string>
+    <string name="batch_processing_desc">複数画像を一括でサイズ変更/圧縮</string>
+    <string name="image_stitch">画像結合</string>
+    <string name="image_stitch_desc">複数画像を結合</string>
+    <string name="cut_inside_image">内部切り抜き</string>
+    <string name="cut_inside_image_desc">画像から正方形領域を切り抜き</string>
+    <string name="passport_size_photo">パスポートサイズ写真</string>
+    <string name="passport_size_photo_desc">パスポート写真シートを作成</string>
+    <string name="image_editor">画像エディタ</string>
+    <string name="saved_images">保存済み画像</string>
+    <string name="no_saved_images">保存済み画像はまだありません</string>
+
+    <!-- Common Actions -->
+    <string name="resize">サイズ変更</string>
+    <string name="crop">トリミング</string>
+    <string name="adjust">調整</string>
+    <string name="compress">圧縮</string>
+    <string name="rotate">回転</string>
+    <string name="cut">切り抜き</string>
+    <string name="save">保存</string>
+    <string name="cancel">キャンセル</string>
+    <string name="apply">適用</string>
+    <string name="done">完了</string>
+    <string name="reset">リセット</string>
+    <string name="share">共有</string>
+    <string name="select">選択</string>
+    <string name="remove">X</string>
+
+    <!-- Editor Dialogs -->
+    <string name="resize_image">画像サイズ変更</string>
+    <string name="keep_aspect_ratio">アスペクト比を維持</string>
+    <string name="width_hint">幅（px）</string>
+    <string name="height_hint">高さ（px）</string>
+    <string name="result_preview">結果：-</string>
+    <string name="adjust_image">画像調整</string>
+    <string name="compress_image">画像圧縮</string>
+    <string name="quality">品質</string>
+    <string name="quality_value">品質：%d%%</string>
+    <string name="quality_default">品質：80%</string>
+    <string name="original_size">元のサイズ：-</string>
+    <string name="compressed_size">圧縮後：-</string>
+    <string name="compressed_size_per_image">圧縮後：- 画像あたり</string>
+    <string name="estimated_savings">推定削減量：-</string>
+    <string name="rotate_or_mirror">回転または反転</string>
+    <string name="rotate_90">90°</string>
+    <string name="rotate_180">180°</string>
+    <string name="rotate_minus_90">-90°</string>
+    <string name="mirror_h">水平反転</string>
+
+    <!-- Image Adjust Controls -->
+    <string name="brightness">明るさ</string>
+    <string name="contrast">コントラスト</string>
+    <string name="temperature">色温度</string>
+    <string name="blur">ぼかし</string>
+
+    <!-- Passport Size Photo -->
+    <string name="select_page_size">用紙サイズを選択</string>
+    <string name="page_4x6">4×6（8枚）</string>
+    <string name="page_a4">A4 4列（32枚）</string>
+    <string name="page_b4">A4 5列（40枚）</string>
+    <string name="photos_label">写真：</string>
+    <string name="page_full_page_print">全面印刷</string>
+    <string name="fullpage_4x6">4×6</string>
+    <string name="fullpage_a4">A4</string>
+    <string name="generate_layout">レイアウト生成</string>
+    <string name="page">ページ</string>
+    <string name="crop_applied">トリミング適用済み</string>
+    <string name="layout_generated">レイアウト生成完了：%1$d×%2$d = %3$d枚</string>
+    <string name="no_layout">レイアウトが生成されていません。先にレイアウトを生成してください。</string>
+    <string name="failed_share_jpeg">JPEGの共有に失敗</string>
+    <string name="failed_share_png">PNGの共有に失敗</string>
+    <string name="failed_share_pdf">PDFの共有に失敗</string>
+    <string name="pdf_saved">PDFを保存しました</string>
+    <string name="failed_pdf">PDFの保存に失敗</string>
+    <string name="jpg_saved">JPGをギャラリーに保存しました</string>
+    <string name="failed_jpg">JPGの保存に失敗</string>
+    <string name="fullpage_three_finger_hint">3本の指で画像をページ上で移動</string>
+    <string name="fullpage_feature_info">全面印刷：写真を全面に配置します。1本の指で端を伸ばし、2本の指でズーム、3本の指で画像を移動します。</string>
+    <string name="drag_to_reposition">ドラッグして写真を再配置</string>
+
+    <!-- Cut Inside Image -->
+    <string name="cut_mode">切り抜きモード：</string>
+    <string name="selection_too_small">選択範囲が小さすぎます</string>
+
+    <!-- Batch Processing -->
+    <string name="batch_resize">ピクセル単位で一括サイズ変更</string>
+    <string name="batch_compress">一括圧縮</string>
+    <string name="select_images_first">先に画像を選択してください</string>
+    <string name="enter_valid_dimensions">有効な寸法を入力してください</string>
+    <string name="batch_resize_completed">一括サイズ変更が完了しました</string>
+    <string name="batch_compress_completed">一括圧縮が完了しました</string>
+    <string name="file_name">ファイル名</string>
+    <string name="output_format">出力形式</string>
+    <string name="format_jpeg">JPEG</string>
+    <string name="format_png">PNG</string>
+    <string name="format_pdf">PDF</string>
+    <string name="dimensions">寸法</string>
+
+    <!-- Photo Stitch -->
+    <string name="stitch_mode_vertical">縦</string>
+    <string name="stitch_mode_horizontal">横</string>
+    <string name="stitch_mode_grid">グリッド 2×2</string>
+    <string name="stitch">結合</string>
+    <string name="select_at_least_2">少なくとも2枚の写真を選択してください</string>
+    <string name="grid_requires_4">グリッドモードには正確に4枚の写真が必要です</string>
+
+    <!-- Menu -->
+    <string name="menu_night_mode">ナイトモード</string>
+    <string name="menu_theme">テーマ</string>
+    <string name="menu_language">言語</string>
+    <string name="menu_support">サポート</string>
+    <string name="menu_privacy">プライバシーポリシー</string>
+    <string name="menu_share">アプリを共有</string>
+    <string name="select_theme">テーマを選択</string>
+    <string name="select_language">言語を選択</string>
+
+    <!-- Status Messages -->
+    <string name="processing_count">%d枚の画像を処理中…</string>
+    <string name="image_saved">画像をギャラリーに保存しました</string>
+    <string name="failed_save">画像の保存に失敗しました</string>
+    <string name="add_image_first">最初にキャンバスに画像を追加してください</string>
+    <string name="no_image_to_save">保存する画像がありません</string>
+    <string name="no_internet">インターネットをオンにしてください</string>
+    <string name="cannot_open_image">画像を開けません</string>
+    <string name="contact_support">連絡先：hitbhatech@gmail.com</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_thumbnail">サムネイル</string>
+    <string name="cd_history">履歴</string>
+    <string name="history">履歴</string>
+    <string name="cd_undo">元に戻す</string>
+    <string name="cd_redo">やり直す</string>
+    <string name="cd_prev_page">前のページ</string>
+    <string name="cd_next_page">次のページ</string>
+    <string name="crop_desc">画像をトリミング</string>
+    <string name="select_page_desc">用紙サイズを選択</string>
+    <string name="save_desc">レイアウトを保存</string>
+    <string name="share_desc">レイアウトを共有</string>
+
+    <!-- Share -->
+    <string name="share_app">共有</string>
+    <string name="share_text">このアプリをチェック：https://play.google.com/store/apps/details?id=</string>
+
+    <!-- Tools / Eraser -->
+    <string name="eraser">消しゴム</string>
+    <string name="delete_image">削除</string>
+    <string name="delete_image_confirm">エディタから現在の画像を削除しますか？</string>
+    <string name="color_erase">色消去</string>
+    <string name="brush_size">サイズ</string>
+    <string name="remove_bg">背景削除</string>
+    <string name="remove_bg_confirm">背景を自動検出して削除しますか？端の背景色に一致するピクセルが透明になります。</string>
+    <string name="bg_tools_remove_bg">背景削除</string>
+    <string name="bg_tools_brush_eraser">ブラシ消しゴム</string>
+    <string name="bg_tools_color_eraser">色消しゴム</string>
+
+    <string name="bg_tools_magic_remove">マジック削除</string>
+
+    <string name="magic_pick_color_hint">削除する色を選ぶには写真をタップしてください</string>
+
+    <string name="magic_color_picked_hint">色を選択しました - 消したい部分をなぞってください</string>
+    <string name="final_touches">最終仕上げ</string>
+    <string name="final_touches_desc">画像に最終効果を適用</string>
+    <string name="feather_edges">エッジをぼかす</string>
+    <string name="feather_edges_desc">被写体と背景の境界を滑らかに</string>
+    <string name="fill_background">背景を塗りつぶし</string>
+    <string name="fill_background_desc">透明領域を単色で置き換え</string>
+    <string name="outline_remove">輪郭除去</string>
+    <string name="outline_remove_desc">端の残留背景輪郭を除去（3-5px推奨）</string>
+
+    <!-- Adjust Controls -->
+    <string name="saturation">彩度</string>
+    <string name="highlights">ハイライト</string>
+    <string name="shadows">シャドウ</string>
+    <string name="exposure">露出</string>
+    <string name="sharpen">シャープ</string>
+    <string name="vignette">ビネット</string>
+
+    <!-- Background Removal -->
+    <string name="bg_removed">背景を削除しました</string>
+    <string name="use_editor_for_eraser">消去ツールには画像エディタを使用してください</string>
+
+    <!-- Page Size Dialog -->
+    <string name="rows">行</string>
+
+    <!-- Cut Modes -->
+    <string-array name="cut_modes">
+        <item>水平切り抜き</item>
+        <item>垂直切り抜き</item>
+    </string-array>
+</resources>

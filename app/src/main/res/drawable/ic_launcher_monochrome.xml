@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed icon layer: same artwork and placement as ic_launcher_foreground.png,
+     drawn in a single colour so the system can tint it.
+
+     The outer group maps the 500 unit viewBox of icon.svg onto the 108dp
+     adaptive-icon canvas exactly like the generated foreground layer does
+     (80dp wide, centred => scale 0.16, offset 14dp). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:translateX="14"
+        android:translateY="14"
+        android:scaleX="0.16"
+        android:scaleY="0.16">
+
+        <group android:translateX="50" android:translateY="50">
+
+            <!-- crop corner angles -->
+            <path
+                android:pathData="M150,110 H335"
+                android:strokeColor="#FFFFFFFF"
+                android:strokeWidth="26"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round" />
+            <path
+                android:pathData="M295,65 V260"
+                android:strokeColor="#FFFFFFFF"
+                android:strokeWidth="26"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round" />
+            <path
+                android:pathData="M65,290 H250"
+                android:strokeColor="#FFFFFFFF"
+                android:strokeWidth="26"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round" />
+            <path
+                android:pathData="M105,140 V335"
+                android:strokeColor="#FFFFFFFF"
+                android:strokeWidth="26"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round" />
+
+            <!-- sparkle -->
+            <path
+                android:pathData="M85,55 C85,75 75,85 55,85 C75,85 85,95 85,115 C85,95 95,85 115,85 C95,85 85,75 85,55 Z"
+                android:fillColor="#FFFFFFFF"
+                android:strokeColor="#FFFFFFFF"
+                android:strokeWidth="4"
+                android:strokeLineJoin="round" />
+
+            <!-- mountains + sun -->
+            <path
+                android:pathData="M158,232 C158,205 172,178 188,178 C198,178 203,210 210,210 C215,210 218,195 224,195 C230,195 242,210 242,232 Z"
+                android:fillColor="#FFFFFFFF"
+                android:strokeColor="#FFFFFFFF"
+                android:strokeWidth="12"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round" />
+            <path
+                android:pathData="M216,162 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0 Z"
+                android:fillColor="#FFFFFFFF" />
+
+        </group>
+    </group>
+</vector>

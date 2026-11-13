@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Photo: Resize, Compress &amp; Passport Maker</string>
+
+    <!-- Feature Names & Descriptions -->
+    <string name="single_image_edit">Single Image Edit</string>
+    <string name="single_image_edit_desc">Resize, crop, adjust, compress</string>
+    <string name="batch_processing">Batch Processing</string>
+    <string name="batch_processing_desc">Resize/compress multiple images</string>
+    <string name="image_stitch">Image Stitch</string>
+    <string name="image_stitch_desc">Combine multiple images</string>
+    <string name="cut_inside_image">Cut Inside</string>
+    <string name="cut_inside_image_desc">Cut square region from image</string>
+    <string name="passport_size_photo">Passport Size Photo</string>
+    <string name="passport_size_photo_desc">Create passport photo sheets</string>
+    <string name="image_editor">Image Editor</string>
+    <string name="saved_images">Saved Images</string>
+    <string name="no_saved_images">No saved images yet</string>
+
+    <!-- Common Actions -->
+    <string name="resize">Resize</string>
+    <string name="crop">Crop</string>
+    <string name="adjust">Adjust</string>
+    <string name="compress">Compress</string>
+    <string name="rotate">Rotate</string>
+    <string name="cut">Cut</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="apply">Apply</string>
+    <string name="done">Done</string>
+    <string name="reset">Reset</string>
+    <string name="share">Share</string>
+    <string name="select">Select</string>
+    <string name="remove">X</string>
+    <string name="close">Close</string>
+
+    <!-- Editor Dialogs -->
+    <string name="resize_image">Resize Image</string>
+    <string name="keep_aspect_ratio">Keep Aspect Ratio</string>
+    <string name="width_hint">Width (px)</string>
+    <string name="height_hint">Height (px)</string>
+    <string name="result_preview">Result: -</string>
+    <string name="resize_options_pixels">Pixels Resize</string>
+    <string name="resize_options_mm">Millimeter Resize</string>
+    <string name="resize_options_cm">Centimetre Resize</string>
+    <string name="resize_options_inch">Inches Resize</string>
+    <string name="resize_by_mm">Resize by Millimeters</string>
+    <string name="resize_by_cm">Resize by Centimetres</string>
+    <string name="resize_by_inch">Resize by Inches</string>
+    <string name="width_hint_mm">Width (mm)</string>
+    <string name="height_hint_mm">Height (mm)</string>
+    <string name="width_hint_cm">Width (cm)</string>
+    <string name="height_hint_cm">Height (cm)</string>
+    <string name="width_hint_inch">Width (in)</string>
+    <string name="height_hint_inch">Height (in)</string>
+    <string name="dpi">DPI</string>
+    <string name="result_preview_unit">Result: %1$d × %2$d px @ %3$d DPI</string>
+    <string name="adjust_image">Adjust Image</string>
+    <string name="compress_image">Compress Image</string>
+    <string name="quality">Quality</string>
+    <string name="original">OL</string>
+    <string name="quality_value">Quality: %d%%</string>
+    <string name="quality_default">Quality: 80%</string>
+    <string name="original_size">Original: -</string>
+    <string name="compressed_size">Compressed: -</string>
+    <string name="compressed_size_per_image">Compressed: - per image</string>
+    <string name="estimated_savings">Estimated savings: -</string>
+    <string name="rotate_or_mirror">Rotate or Mirror</string>
+    <string name="rotate_90">90°</string>
+    <string name="rotate_180">180°</string>
+    <string name="rotate_minus_90">-90°</string>
+    <string name="mirror_h">Mirror H</string>
+
+    <!-- Image Adjust Controls -->
+    <string name="brightness">Brightness</string>
+    <string name="contrast">Contrast</string>
+    <string name="temperature">Temperature</string>
+    <string name="blur">Blur</string>
+
+    <!-- Passport Size Photo -->
+    <string name="select_page_size">Select Page Size</string>
+    <string name="page_4x6">4×6 (8 photos)</string>
+    <string name="page_a4">A4 4 Photo raw (32)</string>
+    <string name="page_b4">A4 5 Photo raw (40)</string>
+    <string name="passport_4x6_photos">4×6 (8 Photos)</string>
+    <string name="passport_4x6_10_photos">4×6 (10 Photos)</string>
+    <string name="passport_a4_photos">A4 (32 Photos)</string>
+    <string name="passport_b4_photos">A4 (40 Photos)</string>
+    <string name="cd_close_preview">Close preview</string>
+    <string name="cd_confirm_preview">Confirm image</string>
+    <string name="photos_label">Photos: </string>
+    <string name="page_full_page_print">Full page print</string>
+    <string name="fullpage_4x6">4×6</string>
+    <string name="fullpage_a4">A4</string>
+    <string name="fullpage_a3">A3</string>
+    <string name="fullpage_letter">Letter</string>
+    <string name="fullpage_a5">A5</string>
+    <string name="generate_layout">Generate Layout</string>
+    <string name="page">Page</string>
+    <string name="crop_applied">Crop applied</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="layout_generated">Layout generated: %1$d×%2$d = %3$d photos</string>
+    <string name="no_layout">No layout generated. Please generate layout first.</string>
+    <string name="failed_share_jpeg">Failed to share JPEG</string>
+    <string name="failed_share_png">Failed to share PNG</string>
+    <string name="failed_share_pdf">Failed to share PDF</string>
+    <string name="failed_share">Failed to share</string>
+    <string name="pdf_saved">PDF saved successfully</string>
+    <string name="failed_pdf">Failed to save PDF</string>
+    <string name="jpg_saved">JPG saved to gallery</string>
+    <string name="failed_jpg">Failed to save JPG</string>
+    <string name="fullpage_three_finger_hint">Use three finger for move image around page</string>
+    <string name="fullpage_feature_info">Full Page Print: Place your photo on a full page. Use 1 finger to stretch edges, 2 fingers to zoom, 3 fingers to move image.</string>
+    <string name="drag_to_reposition">Drag to reposition photo</string>
+
+    <!-- Cut Inside Image -->
+    <string name="cut_mode">Cut Mode:</string>
+    <string name="selection_too_small">Selection area is too small</string>
+
+    <!-- Batch Processing -->
+    <string name="batch_resize">Batch Resize by Pixels</string>
+    <string name="batch_compress">Batch Compress</string>
+    <string name="select_images_first">Please select images first</string>
+    <string name="enter_valid_dimensions">Please enter valid dimensions</string>
+    <string name="batch_resize_completed">Batch resize completed</string>
+    <string name="batch_compress_completed">Batch compress completed</string>
+    <string name="file_name">File Name</string>
+    <string name="output_format">Output Format</string>
+    <string name="format_jpeg">JPEG</string>
+    <string name="format_png">PNG</string>
+    <string name="format_pdf">PDF</string>
+    <string name="dimensions">Dimensions</string>
+
+    <!-- Photo Stitch -->
+    <string name="stitch_mode_vertical">Vertical</string>
+    <string name="stitch_mode_horizontal">Horizontal</string>
+    <string name="stitch_mode_grid">Grid 2x2</string>
+    <string name="stitch">Stitch</string>
+    <string name="select_at_least_2">Please select at least 2 photos</string>
+    <string name="grid_requires_4">Grid mode requires exactly 4 photos</string>
+    <string name="max_4_photos">You can add up to 4 photos</string>
+
+    <!-- Menu -->
+    <string name="menu_night_mode">Night Mode</string>
+    <string name="menu_theme">Theme</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_support">Support</string>
+    <string name="menu_privacy">Privacy Policy</string>
+    <string name="menu_share">Share App</string>
+    <string name="select_theme">Select Theme</string>
+    <string name="select_language">Select Language</string>
+
+    <!-- Status Messages -->
+    <string name="processing_count">Processing %d images…</string>
+    <string name="image_saved">Image saved to gallery</string>
+    <string name="failed_save">Failed to save image</string>
+    <string name="add_image_first">Add image first in canvas</string>
+    <string name="max_images_limit">Maximum 24 images allowed</string>
+    <string name="max_batch_images_limit">Maximum 99 images allowed</string>
+    <string name="no_image_to_save">No image to save</string>
+    <string name="no_internet">Turn on Internet</string>
+    <string name="cannot_open_image">Cannot open image</string>
+    <string name="contact_support">Contact: hitbhatech@gmail.com</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_thumbnail">Thumbnail</string>
+    <string name="cd_history">History</string>
+    <string name="history">History</string>
+    <string name="cd_undo">Undo</string>
+    <string name="cd_redo">Redo</string>
+    <string name="cd_prev_page">Previous page</string>
+    <string name="cd_next_page">Next page</string>
+    <string name="crop_desc">Crop Image</string>
+    <string name="select_page_desc">Select Page Size</string>
+    <string name="save_desc">Save Layout</string>
+    <string name="share_desc">Share Layout</string>
+
+    <!-- Share -->
+    <string name="share_app">Share</string>
+    <string name="share_text">Check out app: https://play.google.com/store/apps/details?id=</string>
+
+    <!-- Tools / Eraser -->
+    <string name="eraser">Eraser</string>
+    <string name="delete_image">Delete</string>
+    <string name="delete_image_confirm">Delete the current image from the editor?</string>
+    <string name="color_erase">Color Eraser</string>
+    <string name="brush_size">Size</string>
+    <string name="remove_bg">Remove BG</string>
+    <string name="remove_bg_confirm">Auto-detect and remove the background? Pixels matching the edge background color will be made transparent.</string>
+    <string name="bg_tools_remove_bg">Remove Background</string>
+    <string name="bg_tools_brush_eraser">Brush Eraser</string>
+    <string name="bg_tools_color_eraser">Color Eraser</string>
+    <string name="bg_tools_magic_remove">Magic Remove</string>
+    <string name="magic_pick_color_hint">Tap the photo to pick a color to remove</string>
+    <string name="magic_color_picked_hint">Color selected - paint over the photo to erase it</string>
+    <string name="final_touches">Final Touches</string>
+    <string name="final_touches_desc">Apply finishing effects to your image</string>
+    <string name="add_sign_or_page">Add page or sign/stamp image</string>
+    <string name="add_page_or_image">Add Page or Image</string>
+    <string name="add_page">Add Page</string>
+    <string name="add_image_stamp">Add Image / Sign</string>
+    <string name="drag_to_position_hint">Drag to move, pinch to resize the stamp</string>
+    <string name="page_created">Blank page created</string>
+    <string name="stamp_added">Image added</string>
+    <string name="add_sign_first">Add an image or page first</string>
+    <string name="page_a4_plain">A4</string>
+    <string name="page_a3_plain">A3</string>
+    <string name="page_a5_plain">A5</string>
+    <string name="page_letter_plain">Letter</string>
+    <string name="page_4x6_plain">4×6</string>
+    <string name="feather_edges">Feather Edges</string>
+    <string name="feather_edges_desc">Smooth the boundary between subject and background</string>
+    <string name="fill_background">Fill Background</string>
+    <string name="fill_background_desc">Replace transparent areas with a solid color</string>
+    <string name="outline_remove">Outline Remove</string>
+    <string name="outline_remove_desc">Remove residual background outline from edges (3-5px recommended)</string>
+
+    <!-- Adjust Controls -->
+    <string name="saturation">Saturation</string>
+    <string name="highlights">Highlights</string>
+    <string name="shadows">Shadows</string>
+    <string name="exposure">Exposure</string>
+    <string name="sharpen">Sharpen</string>
+    <string name="vignette">Vignette</string>
+    <string name="sharpness">Sharpness</string>
+    <string name="sharpness_desc">Light sharpening to enhance edge clarity. Keeps 300 DPI to avoid pixelation when printed.</string>
+
+    <!-- Background Removal -->
+    <string name="bg_removed">Background removed</string>
+    <string name="use_editor_for_eraser">Use image editor for eraser tools</string>
+
+    <!-- Page Size Dialog -->
+    <string name="rows">Rows</string>    <!-- Page Scan -->
+    <string name="page_scan">Document Scanner</string>
+    <string name="camera">Camera</string>
+    <string name="camera_permission_required">Camera permission required</string>
+    <string name="media_permission_required">Media access permission is required to use the full camera features</string>
+    <string name="no_photo_captured">No photo captured</string>
+    <string name="page_scan_desc">Scan documents with auto edge detection</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="scan_pdf_preview">PDF Preview</string>
+    <string name="scan_id">ID Scan</string>
+    <string name="scan_document">Word</string>
+    <string name="scan_excel">Excel</string>
+    <string name="docx_saved">Word document saved</string>
+    <string name="failed_docx">Failed to save Word document</string>
+    <string name="xlsx_saved">Excel file saved</string>
+    <string name="failed_xlsx">Failed to save Excel file</string>
+    <string name="processing_ocr">Recognizing text…</string>
+    <string name="from_gallery">Gallery</string>
+    <string name="coming_soon">Coming soon</string>
+
+    <!-- Paper Size -->
+    <string name="paper_size">Page Size</string>
+    <string name="paper_a4">A4 (210 × 297 mm)</string>
+    <string name="paper_4x6">4×6 (4 × 6 in)</string>
+    <string name="paper_letter">Letter (8.5 × 11 in)</string>
+    <string name="paper_a5">A5 (148 × 210 mm)</string>
+    <string name="paper_a3">A3 (297 × 420 mm)</string>
+    <string name="paper_custom">Custom</string>
+
+    <!-- Cut Modes -->
+    <string-array name="cut_modes">
+        <item>Horizontal Cut</item>
+        <item>Vertical Cut</item>
+    </string-array>
+</resources>

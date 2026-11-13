@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Photo: Resize, Compress &amp; Passport Maker</string>
+
+    <!-- Feature Names & Descriptions -->
+    <string name="single_image_edit">એકલ છબી સંપાદન</string>
+    <string name="single_image_edit_desc">માપ બદલો, ક્રોપ કરો, સમાયોજિત કરો, સંકુચિત કરો</string>
+    <string name="batch_processing">બેચ પ્રોસેસિંગ</string>
+    <string name="batch_processing_desc">એકસાથે બહુવિધ છબીઓનું માપ બદલો/સંકુચિત કરો</string>
+    <string name="image_stitch">ઇમેજ સ્ટિચ</string>
+    <string name="image_stitch_desc">બહુવિધ છબીઓ ભેગી કરો</string>
+    <string name="cut_inside_image">અંદર કાપો</string>
+    <string name="cut_inside_image_desc">છબીમાંથી ચોરસ વિસ્તાર કાપો</string>
+    <string name="passport_size_photo">પાસપોર્ટ સાઇઝ ફોટો</string>
+    <string name="passport_size_photo_desc">પાસપોર્ટ ફોટો શીટ બનાવો</string>
+    <string name="image_editor">ઇમેજ એડિટર</string>
+    <string name="saved_images">સાચવેલી છબીઓ</string>
+    <string name="no_saved_images">હજી સુધી કોઈ છબી સાચવી નથી</string>
+
+    <!-- Common Actions -->
+    <string name="resize">માપ બદલો</string>
+    <string name="crop">ક્રોપ</string>
+    <string name="adjust">સમાયોજિત કરો</string>
+    <string name="compress">સંકુચિત કરો</string>
+    <string name="rotate">ફેરવો</string>
+    <string name="cut">કાપો</string>
+    <string name="save">સાચવો</string>
+    <string name="cancel">રદ કરો</string>
+    <string name="apply">લાગુ કરો</string>
+    <string name="done">થઈ ગયું</string>
+    <string name="reset">રીસેટ</string>
+    <string name="share">શેર</string>
+    <string name="select">પસંદ કરો</string>
+    <string name="remove">X</string>
+
+    <!-- Editor Dialogs -->
+    <string name="resize_image">ઇમેજનું માપ બદલો</string>
+    <string name="keep_aspect_ratio">પાસા રેશિયો જાળવો</string>
+    <string name="width_hint">પહોળાઈ (px)</string>
+    <string name="height_hint">ઊંચાઈ (px)</string>
+    <string name="result_preview">પરિણામ: -</string>
+    <string name="adjust_image">ઇમેજ સમાયોજિત કરો</string>
+    <string name="compress_image">ઇમેજ સંકુચિત કરો</string>
+    <string name="quality">ગુણવત્તા</string>
+    <string name="quality_value">ગુણવત્તા: %d%%</string>
+    <string name="quality_default">ગુણવત્તા: 80%</string>
+    <string name="original_size">મૂળ: -</string>
+    <string name="compressed_size">સંકુચિત: -</string>
+    <string name="compressed_size_per_image">સંકુચિત: - પ્રતિ છબી</string>
+    <string name="estimated_savings">અંદાજિત બચત: -</string>
+    <string name="rotate_or_mirror">ફેરવો અથવા મિરર કરો</string>
+    <string name="rotate_90">90°</string>
+    <string name="rotate_180">180°</string>
+    <string name="rotate_minus_90">-90°</string>
+    <string name="mirror_h">આડું મિરર</string>
+
+    <!-- Image Adjust Controls -->
+    <string name="brightness">તેજ</string>
+    <string name="contrast">કોન્ટ્રાસ્ટ</string>
+    <string name="temperature">તાપમાન</string>
+    <string name="blur">અસ્પષ્ટ</string>
+
+    <!-- Passport Size Photo -->
+    <string name="select_page_size">પેજનું કદ પસંદ કરો</string>
+    <string name="page_4x6">4×6 (8 ફોટા)</string>
+    <string name="page_a4">A4 4 ફોટો (32)</string>
+    <string name="page_b4">A4 5 ફોટો (40)</string>
+    <string name="photos_label">ફોટા: </string>
+    <string name="page_full_page_print">સંપૂર્ણ પેજ પ્રિન્ટ</string>
+    <string name="fullpage_4x6">4×6</string>
+    <string name="fullpage_a4">A4</string>
+    <string name="generate_layout">લેઆઉટ જનરેટ કરો</string>
+    <string name="page">પેજ</string>
+    <string name="crop_applied">ક્રોપ લાગુ કર્યું</string>
+    <string name="layout_generated">લેઆઉટ જનરેટ થયું: %1$d×%2$d = %3$d ફોટા</string>
+    <string name="no_layout">કોઈ લેઆઉટ જનરેટ થયું નથી. કૃપા કરીને પહેલા લેઆઉટ જનરેટ કરો.</string>
+    <string name="failed_share_jpeg">JPEG શેર કરવામાં નિષ્ફળ</string>
+    <string name="failed_share_png">PNG શેર કરવામાં નિષ્ફળ</string>
+    <string name="failed_share_pdf">PDF શેર કરવામાં નિષ્ફળ</string>
+    <string name="pdf_saved">PDF સફળતાપૂર્વક સાચવ્યું</string>
+    <string name="failed_pdf">PDF સાચવવામાં નિષ્ફળ</string>
+    <string name="jpg_saved">JPG ગેલેરીમાં સાચવ્યું</string>
+    <string name="failed_jpg">JPG સાચવવામાં નિષ્ફળ</string>
+    <string name="fullpage_three_finger_hint">પેજ પર ઇમેજ ખસેડવા માટે ત્રણ આંગળીઓનો ઉપયોગ કરો</string>
+    <string name="fullpage_feature_info">સંપૂર્ણ પેજ પ્રિન્ટ: તમારો ફોટો સંપૂર્ણ પેજ પર મૂકો. કિનારીઓ ખેંચવા 1 આંગળી, ઝૂમ કરવા 2 આંગળીઓ, ઇમેજ ખસેડવા 3 આંગળીઓ વાપરો.</string>
+    <string name="drag_to_reposition">ફોટો પુનઃસ્થાપિત કરવા ખેંચો</string>
+
+    <!-- Cut Inside Image -->
+    <string name="cut_mode">કાપવાની રીત:</string>
+    <string name="selection_too_small">પસંદ કરેલ વિસ્તાર ખૂબ નાનો છે</string>
+
+    <!-- Batch Processing -->
+    <string name="batch_resize">પિક્સેલમાં બેચ માપ બદલો</string>
+    <string name="batch_compress">બેચ સંકુચિત કરો</string>
+    <string name="select_images_first">કૃપા કરીને પહેલા છબીઓ પસંદ કરો</string>
+    <string name="enter_valid_dimensions">કૃપા કરીને માન્ય પરિમાણો દાખલ કરો</string>
+    <string name="batch_resize_completed">બેચ માપ બદલવાનું પૂર્ણ થયું</string>
+    <string name="batch_compress_completed">બેચ સંકુચિત કરવાનું પૂર્ણ થયું</string>
+    <string name="file_name">ફાઇલનું નામ</string>
+    <string name="output_format">આઉટપુટ ફોર્મેટ</string>
+    <string name="format_jpeg">JPEG</string>
+    <string name="format_png">PNG</string>
+    <string name="format_pdf">PDF</string>
+    <string name="dimensions">પરિમાણો</string>
+
+    <!-- Photo Stitch -->
+    <string name="stitch_mode_vertical">ઊભું</string>
+    <string name="stitch_mode_horizontal">આડું</string>
+    <string name="stitch_mode_grid">ગ્રિડ 2x2</string>
+    <string name="stitch">જોડો</string>
+    <string name="select_at_least_2">કૃપા કરીને ઓછામાં ઓછા 2 ફોટા પસંદ કરો</string>
+    <string name="grid_requires_4">ગ્રિડ મોડ માટે બરાબર 4 ફોટા જોઈએ</string>
+
+    <!-- Menu -->
+    <string name="menu_night_mode">રાત્રિ મોડ</string>
+    <string name="menu_theme">થીમ</string>
+    <string name="menu_language">ભાષા</string>
+    <string name="menu_support">સપોર્ટ</string>
+    <string name="menu_privacy">ગોપનીયતા નીતિ</string>
+    <string name="menu_share">એપ શેર કરો</string>
+    <string name="select_theme">થીમ પસંદ કરો</string>
+    <string name="select_language">ભાષા પસંદ કરો</string>
+
+    <!-- Status Messages -->
+    <string name="processing_count">%d છબીઓ પ્રોસેસ થઈ રહી છે…</string>
+    <string name="image_saved">છબી ગેલેરીમાં સાચવી</string>
+    <string name="failed_save">છબી સાચવવામાં નિષ્ફળ</string>
+    <string name="add_image_first">પહેલા કેનવાસમાં છબી ઉમેરો</string>
+    <string name="no_image_to_save">સાચવવા માટે કોઈ છબી નથી</string>
+    <string name="no_internet">ઇન્ટરનેટ ચાલુ કરો</string>
+    <string name="cannot_open_image">છબી ખોલી શકાતી નથી</string>
+    <string name="contact_support">સંપર્ક: hitbhatech@gmail.com</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_thumbnail">થંબનેલ</string>
+    <string name="cd_history">ઇતિહાસ</string>
+    <string name="history">ઇતિહાસ</string>
+    <string name="cd_undo">પાછું લો</string>
+    <string name="cd_redo">ફરી કરો</string>
+    <string name="cd_prev_page">પાછલું પેજ</string>
+    <string name="cd_next_page">આગલું પેજ</string>
+    <string name="crop_desc">ઇમેજ ક્રોપ કરો</string>
+    <string name="select_page_desc">પેજનું કદ પસંદ કરો</string>
+    <string name="save_desc">લેઆઉટ સાચવો</string>
+    <string name="share_desc">લેઆઉટ શેર કરો</string>
+
+    <!-- Share -->
+    <string name="share_app">શેર</string>
+    <string name="share_text">એપ જુઓ: https://play.google.com/store/apps/details?id=</string>
+
+    <!-- Tools / Eraser -->
+    <string name="eraser">ઇરેઝર</string>
+    <string name="delete_image">કાઢી નાખો</string>
+    <string name="delete_image_confirm">એડિટરમાંથી વર્તમાન છબી કાઢી નાખો?</string>
+    <string name="color_erase">રંગ ઇરેઝર</string>
+    <string name="brush_size">કદ</string>
+    <string name="remove_bg">BG દૂર કરો</string>
+    <string name="remove_bg_confirm">આપમેળે પૃષ્ઠભૂમિ શોધીને દૂર કરો? કિનારીના પૃષ્ઠભૂમિ રંગ સાથે મેળ ખાતા પિક્સેલ્સ પારદર્શક કરવામાં આવશે.</string>
+    <string name="bg_tools_remove_bg">પૃષ્ઠભૂમિ દૂર કરો</string>
+    <string name="bg_tools_brush_eraser">બ્રશ ઇરેઝર</string>
+    <string name="bg_tools_color_eraser">રંગ ઇરેઝર</string>
+
+    <string name="bg_tools_magic_remove">મેજિક રિમૂવ</string>
+
+    <string name="magic_pick_color_hint">દૂર કરવા માટે રંગ પસંદ કરવા ફોટો પર ટેપ કરો</string>
+
+    <string name="magic_color_picked_hint">રંગ પસંદ થયો - તેને કાઢી નાખવા ફોટો પર દોરો</string>
+    <string name="final_touches">અંતિમ સ્પર્શ</string>
+    <string name="final_touches_desc">તમારી છબી પર અંતિમ અસરો લાગુ કરો</string>
+    <string name="feather_edges">ફેધર એજ</string>
+    <string name="feather_edges_desc">વિષય અને પૃષ્ઠભૂમિ વચ્ચેની સીમાને સરળ બનાવો</string>
+    <string name="fill_background">પૃષ્ઠભૂમિ ભરો</string>
+    <string name="fill_background_desc">પારદર્શક વિસ્તારોને ઘેરા રંગથી બદલો</string>
+    <string name="outline_remove">આઉટલાઇન દૂર કરો</string>
+    <string name="outline_remove_desc">કિનારીઓમાંથી બાકીની પૃષ્ઠભૂમિ આઉટલાઇન દૂર કરો (3-5px ભલામણ કરેલ)</string>
+
+    <!-- Adjust Controls -->
+    <string name="saturation">સંતૃપ્તિ</string>
+    <string name="highlights">હાઇલાઇટ્સ</string>
+    <string name="shadows">પડછાયા</string>
+    <string name="exposure">એક્સપોઝર</string>
+    <string name="sharpen">શાર્પન</string>
+    <string name="vignette">વિગ્નેટ</string>
+
+    <!-- Background Removal -->
+    <string name="bg_removed">પૃષ્ઠભૂમિ દૂર કરી</string>
+    <string name="use_editor_for_eraser">ઇરેઝર ટૂલ્સ માટે ઇમેજ એડિટરનો ઉપયોગ કરો</string>
+
+    <!-- Page Size Dialog -->
+    <string name="rows">પંક્તિઓ</string>
+
+    <!-- Page Scan -->
+    <string name="page_scan">પેજ સ્કેન</string>
+    <string name="camera">કૅમેરા</string>
+    <string name="page_scan_desc">દસ્તાવેજ પેજ સ્કેન કરો અને બેકગ્રાઉન્ડ દૂર કરો</string>
+
+    <!-- Cut Modes -->
+    <string-array name="cut_modes">
+        <item>આડો કટ</item>
+        <item>ઊભો કટ</item>
+    </string-array>
+</resources>

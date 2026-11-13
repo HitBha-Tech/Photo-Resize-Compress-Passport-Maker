@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_night_mode"
+        android:title="@string/menu_night_mode"
+        android:checkable="true" />
+    <item
+        android:id="@+id/menu_theme"
+        android:title="@string/menu_theme" />
+    <item
+        android:id="@+id/menu_language"
+        android:title="@string/menu_language" />
+    <item
+        android:id="@+id/menu_support"
+        android:title="@string/menu_support" />
+    <item
+        android:id="@+id/menu_privacy"
+        android:title="@string/menu_privacy" />
+    <item
+        android:id="@+id/menu_share"
+        android:title="@string/menu_share" />
+</menu>

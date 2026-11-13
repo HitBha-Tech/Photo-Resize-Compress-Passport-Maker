@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Photo: Resize, Compress &amp; Passport Maker</string>
+
+    <!-- Feature Names & Descriptions -->
+    <string name="single_image_edit">Edit Gambar Tunggal</string>
+    <string name="single_image_edit_desc">Ubah ukuran, potong, sesuaikan, kompres</string>
+    <string name="batch_processing">Pemrosesan Batch</string>
+    <string name="batch_processing_desc">Ubah ukuran/kompres banyak gambar</string>
+    <string name="image_stitch">Gabung Gambar</string>
+    <string name="image_stitch_desc">Gabungkan beberapa gambar</string>
+    <string name="cut_inside_image">Potong di Dalam</string>
+    <string name="cut_inside_image_desc">Potong area persegi dari gambar</string>
+    <string name="passport_size_photo">Foto Ukuran Paspor</string>
+    <string name="passport_size_photo_desc">Buat lembar foto paspor</string>
+    <string name="image_editor">Editor Gambar</string>
+    <string name="saved_images">Gambar Tersimpan</string>
+    <string name="no_saved_images">Belum ada gambar tersimpan</string>
+
+    <!-- Common Actions -->
+    <string name="resize">Ubah Ukuran</string>
+    <string name="crop">Potong</string>
+    <string name="adjust">Sesuaikan</string>
+    <string name="compress">Kompres</string>
+    <string name="rotate">Putar</string>
+    <string name="cut">Potong</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="apply">Terapkan</string>
+    <string name="done">Selesai</string>
+    <string name="reset">Atur Ulang</string>
+    <string name="share">Bagikan</string>
+    <string name="select">Pilih</string>
+    <string name="remove">X</string>
+
+    <!-- Editor Dialogs -->
+    <string name="resize_image">Ubah Ukuran Gambar</string>
+    <string name="keep_aspect_ratio">Pertahankan Rasio Aspek</string>
+    <string name="width_hint">Lebar (px)</string>
+    <string name="height_hint">Tinggi (px)</string>
+    <string name="result_preview">Hasil: -</string>
+    <string name="adjust_image">Sesuaikan Gambar</string>
+    <string name="compress_image">Kompres Gambar</string>
+    <string name="quality">Kualitas</string>
+    <string name="quality_value">Kualitas: %d%%</string>
+    <string name="quality_default">Kualitas: 80%</string>
+    <string name="original_size">Asli: -</string>
+    <string name="compressed_size">Terkompres: -</string>
+    <string name="compressed_size_per_image">Terkompres: - per gambar</string>
+    <string name="estimated_savings">Perkiraan penghematan: -</string>
+    <string name="rotate_or_mirror">Putar atau Cermin</string>
+    <string name="rotate_90">90°</string>
+    <string name="rotate_180">180°</string>
+    <string name="rotate_minus_90">-90°</string>
+    <string name="mirror_h">Cermin H</string>
+
+    <!-- Image Adjust Controls -->
+    <string name="brightness">Kecerahan</string>
+    <string name="contrast">Kontras</string>
+    <string name="temperature">Suhu</string>
+    <string name="blur">Buram</string>
+
+    <!-- Passport Size Photo -->
+    <string name="select_page_size">Pilih Ukuran Halaman</string>
+    <string name="page_4x6">4×6 (8 foto)</string>
+    <string name="page_a4">A4 4 Photo raw (32)</string>
+    <string name="page_b4">A4 5 Photo raw (40)</string>
+    <string name="photos_label">Foto: </string>
+    <string name="page_full_page_print">Cetak halaman penuh</string>
+    <string name="fullpage_4x6">4×6</string>
+    <string name="fullpage_a4">A4</string>
+    <string name="generate_layout">Hasilkan Tata Letak</string>
+    <string name="page">Halaman</string>
+    <string name="crop_applied">Pemotongan diterapkan</string>
+    <string name="layout_generated">Tata letak dihasilkan: %1$d×%2$d = %3$d foto</string>
+    <string name="no_layout">Belum ada tata letak. Harap hasilkan tata letak terlebih dahulu.</string>
+    <string name="failed_share_jpeg">Gagal membagikan JPEG</string>
+    <string name="failed_share_png">Gagal membagikan PNG</string>
+    <string name="failed_share_pdf">Gagal membagikan PDF</string>
+    <string name="pdf_saved">PDF berhasil disimpan</string>
+    <string name="failed_pdf">Gagal menyimpan PDF</string>
+    <string name="jpg_saved">JPG disimpan ke galeri</string>
+    <string name="failed_jpg">Gagal menyimpan JPG</string>
+    <string name="fullpage_three_finger_hint">Gunakan tiga jari untuk memindahkan gambar di halaman</string>
+    <string name="fullpage_feature_info">Cetak Halaman Penuh: Tempatkan foto Anda di halaman penuh. Gunakan 1 jari untuk meregangkan tepi, 2 jari untuk memperbesar, 3 jari untuk memindahkan gambar.</string>
+    <string name="drag_to_reposition">Seret untuk memposisikan ulang foto</string>
+
+    <!-- Cut Inside Image -->
+    <string name="cut_mode">Mode Potong:</string>
+    <string name="selection_too_small">Area seleksi terlalu kecil</string>
+
+    <!-- Batch Processing -->
+    <string name="batch_resize">Ubah Ukuran Batch dalam Piksel</string>
+    <string name="batch_compress">Kompres Batch</string>
+    <string name="select_images_first">Silakan pilih gambar terlebih dahulu</string>
+    <string name="enter_valid_dimensions">Harap masukkan dimensi yang valid</string>
+    <string name="batch_resize_completed">Ubah ukuran batch selesai</string>
+    <string name="batch_compress_completed">Kompres batch selesai</string>
+    <string name="file_name">Nama File</string>
+    <string name="output_format">Format Output</string>
+    <string name="format_jpeg">JPEG</string>
+    <string name="format_png">PNG</string>
+    <string name="format_pdf">PDF</string>
+    <string name="dimensions">Dimensi</string>
+
+    <!-- Photo Stitch -->
+    <string name="stitch_mode_vertical">Vertikal</string>
+    <string name="stitch_mode_horizontal">Horizontal</string>
+    <string name="stitch_mode_grid">Kisi 2x2</string>
+    <string name="stitch">Gabung</string>
+    <string name="select_at_least_2">Silakan pilih setidaknya 2 foto</string>
+    <string name="grid_requires_4">Mode kisi membutuhkan tepat 4 foto</string>
+
+    <!-- Menu -->
+    <string name="menu_night_mode">Mode Malam</string>
+    <string name="menu_theme">Tema</string>
+    <string name="menu_language">Bahasa</string>
+    <string name="menu_support">Dukungan</string>
+    <string name="menu_privacy">Kebijakan Privasi</string>
+    <string name="menu_share">Bagikan Aplikasi</string>
+    <string name="select_theme">Pilih Tema</string>
+    <string name="select_language">Pilih Bahasa</string>
+
+    <!-- Status Messages -->
+    <string name="processing_count">Memproses %d gambar…</string>
+    <string name="image_saved">Gambar disimpan ke galeri</string>
+    <string name="failed_save">Gagal menyimpan gambar</string>
+    <string name="add_image_first">Tambahkan gambar terlebih dahulu di kanvas</string>
+    <string name="no_image_to_save">Tidak ada gambar untuk disimpan</string>
+    <string name="no_internet">Nyalakan Internet</string>
+    <string name="cannot_open_image">Tidak dapat membuka gambar</string>
+    <string name="contact_support">Kontak: hitbhatech@gmail.com</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_thumbnail">Gambar kecil</string>
+    <string name="cd_history">Riwayat</string>
+    <string name="history">Riwayat</string>
+    <string name="cd_undo">Urungkan</string>
+    <string name="cd_redo">Ulangi</string>
+    <string name="cd_prev_page">Halaman sebelumnya</string>
+    <string name="cd_next_page">Halaman berikutnya</string>
+    <string name="crop_desc">Potong Gambar</string>
+    <string name="select_page_desc">Pilih Ukuran Halaman</string>
+    <string name="save_desc">Simpan Tata Letak</string>
+    <string name="share_desc">Bagikan Tata Letak</string>
+
+    <!-- Share -->
+    <string name="share_app">Bagikan</string>
+    <string name="share_text">Lihat aplikasi ini: https://play.google.com/store/apps/details?id=</string>
+
+    <!-- Tools / Eraser -->
+    <string name="eraser">Penghapus</string>
+    <string name="delete_image">Hapus</string>
+    <string name="delete_image_confirm">Hapus gambar saat ini dari editor?</string>
+    <string name="color_erase">Penghapus Warna</string>
+    <string name="brush_size">Ukuran</string>
+    <string name="remove_bg">Hapus Latar</string>
+    <string name="remove_bg_confirm">Deteksi dan hapus latar belakang secara otomatis? Piksel yang cocok dengan warna latar tepi akan dibuat transparan.</string>
+    <string name="bg_tools_remove_bg">Hapus Latar Belakang</string>
+    <string name="bg_tools_brush_eraser">Penghapus Kuas</string>
+    <string name="bg_tools_color_eraser">Penghapus Warna</string>
+
+    <string name="bg_tools_magic_remove">Hapus Ajaib</string>
+
+    <string name="magic_pick_color_hint">Ketuk foto untuk memilih warna yang akan dihapus</string>
+
+    <string name="magic_color_picked_hint">Warna dipilih - cat di atas foto untuk menghapusnya</string>
+    <string name="final_touches">Sentuhan Akhir</string>
+    <string name="final_touches_desc">Terapkan efek akhir ke gambar Anda</string>
+    <string name="feather_edges">Haluskan Tepi</string>
+    <string name="feather_edges_desc">Perhalus batas antara subjek dan latar belakang</string>
+    <string name="fill_background">Isi Latar Belakang</string>
+    <string name="fill_background_desc">Ganti area transparan dengan warna solid</string>
+    <string name="outline_remove">Hapus Garis Tepi</string>
+    <string name="outline_remove_desc">Hapus sisa garis tepi latar belakang dari pinggiran (disarankan 3-5px)</string>
+
+    <!-- Adjust Controls -->
+    <string name="saturation">Saturasi</string>
+    <string name="highlights">Sorotan</string>
+    <string name="shadows">Bayangan</string>
+    <string name="exposure">Eksposur</string>
+    <string name="sharpen">Tajamkan</string>
+    <string name="vignette">Vignet</string>
+
+    <!-- Background Removal -->
+    <string name="bg_removed">Latar belakang dihapus</string>
+    <string name="use_editor_for_eraser">Gunakan editor gambar untuk alat penghapus</string>
+
+    <!-- Page Size Dialog -->
+    <string name="rows">Baris</string>
+
+    <!-- Cut Modes -->
+    <string-array name="cut_modes">
+        <item>Potongan Horizontal</item>
+        <item>Potongan Vertikal</item>
+    </string-array>
+</resources>

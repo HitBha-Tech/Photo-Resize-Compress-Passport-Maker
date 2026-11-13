@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Photo: Resize, Compress &amp; Passport Maker</string>
+
+    <!-- Feature Names & Descriptions -->
+    <string name="single_image_edit">تحرير صورة واحدة</string>
+    <string name="single_image_edit_desc">تغيير الحجم، قص، ضبط، ضغط</string>
+    <string name="batch_processing">معالجة دفعة</string>
+    <string name="batch_processing_desc">تغيير حجم/ضغط عدة صور</string>
+    <string name="image_stitch">دمج الصور</string>
+    <string name="image_stitch_desc">دمج عدة صور معاً</string>
+    <string name="cut_inside_image">قص من الداخل</string>
+    <string name="cut_inside_image_desc">قص منطقة مربعة من الصورة</string>
+    <string name="passport_size_photo">صورة جواز السفر</string>
+    <string name="passport_size_photo_desc">إنشاء أوراق صور جواز السفر</string>
+    <string name="image_editor">محرر الصور</string>
+    <string name="saved_images">الصور المحفوظة</string>
+    <string name="no_saved_images">لا توجد صور محفوظة بعد</string>
+
+    <!-- Common Actions -->
+    <string name="resize">تغيير الحجم</string>
+    <string name="crop">قص</string>
+    <string name="adjust">ضبط</string>
+    <string name="compress">ضغط</string>
+    <string name="rotate">تدوير</string>
+    <string name="cut">قص</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="apply">تطبيق</string>
+    <string name="reset">إعادة تعيين</string>
+    <string name="share">مشاركة</string>
+    <string name="select">اختيار</string>
+    <string name="remove">X</string>
+
+    <!-- Editor Dialogs -->
+    <string name="resize_image">تغيير حجم الصورة</string>
+    <string name="keep_aspect_ratio">الحفاظ على نسبة العرض إلى الارتفاع</string>
+    <string name="width_hint">العرض (بكسل)</string>
+    <string name="height_hint">الارتفاع (بكسل)</string>
+    <string name="result_preview">النتيجة: -</string>
+
+    <string name="adjust_image">ضبط الصورة</string>
+    <string name="compress_image">ضغط الصورة</string>
+    <string name="quality">الجودة</string>
+    <string name="quality_value">الجودة: %d%%</string>
+    <string name="quality_default">الجودة: 80%</string>
+    <string name="original_size">الأصلي: -</string>
+    <string name="compressed_size">مضغوط: -</string>
+    <string name="compressed_size_per_image">مضغوط: - لكل صورة</string>
+    <string name="estimated_savings">التوفير المقدر: -</string>
+    <string name="rotate_or_mirror">تدوير أو عكس</string>
+    <string name="rotate_90">90°</string>
+    <string name="rotate_180">180°</string>
+    <string name="rotate_minus_90">-90°</string>
+    <string name="mirror_h">عكس أفقي</string>
+
+    <!-- Image Adjust Controls -->
+    <string name="brightness">السطوع</string>
+    <string name="contrast">التباين</string>
+    <string name="temperature">درجة الحرارة</string>
+    <string name="blur">الضبابية</string>
+
+    <!-- Passport Size Photo -->
+    <string name="select_page_size">اختيار حجم الصفحة</string>
+    <string name="page_4x6">4×6 (8 صور)</string>
+    <string name="page_a4">A4 4 صور في الصف (32)</string>
+    <string name="page_b4">A4 5 صور في الصف (40)</string>
+    <string name="photos_label">الصور: </string>
+    <string name="generate_layout">إنشاء تخطيط</string>
+    <string name="page">صفحة</string>
+    <string name="crop_applied">تم تطبيق القص</string>
+    <string name="layout_generated">تم إنشاء التخطيط: %1$d×%2$d = %3$d صورة</string>
+    <string name="no_layout">لم يتم إنشاء تخطيط. يرجى إنشاء تخطيط أولاً.</string>
+    <string name="failed_share_jpeg">فشل مشاركة JPEG</string>
+    <string name="failed_share_png">فشل مشاركة PNG</string>
+    <string name="failed_share_pdf">فشل مشاركة PDF</string>
+    <string name="pdf_saved">تم حفظ PDF بنجاح</string>
+    <string name="failed_pdf">فشل حفظ PDF</string>
+    <string name="jpg_saved">تم حفظ JPG في المعرض</string>
+    <string name="failed_jpg">فشل حفظ JPG</string>
+    <string name="page_full_page_print">طباعة صفحة كاملة</string>
+    <string name="fullpage_4x6">4×6</string>
+    <string name="fullpage_a4">A4</string>
+    <string name="fullpage_three_finger_hint">استخدم ثلاثة أصابع لتحريك الصورة حول الصفحة</string>
+    <string name="fullpage_feature_info">طباعة صفحة كاملة: ضع صورتك على صفحة كاملة. استخدم إصبعاً واحداً لتمديد الحواف، وإصبعين للتكبير، وثلاثة أصابع لتحريك الصورة.</string>
+    <string name="drag_to_reposition">اسحب لإعادة وضع الصورة</string>
+
+    <!-- Cut Inside Image -->
+    <string name="cut_mode">وضع القص:</string>
+    <string name="selection_too_small">منطقة التحديد صغيرة جداً</string>
+
+    <!-- Batch Processing -->
+    <string name="batch_resize">تغيير حجم دفعة بالبكسل</string>
+    <string name="batch_compress">ضغط دفعة</string>
+    <string name="select_images_first">يرجى تحديد الصور أولاً</string>
+    <string name="enter_valid_dimensions">يرجى إدخال أبعاد صالحة</string>
+    <string name="batch_resize_completed">تم تغيير حجم الدفعة بنجاح</string>
+    <string name="batch_compress_completed">تم ضغط الدفعة بنجاح</string>
+    <string name="output_format">تنسيق الإخراج</string>
+    <string name="format_jpeg">JPEG</string>
+    <string name="format_png">PNG</string>
+    <string name="format_pdf">PDF</string>
+    <string name="dimensions">الأبعاد</string>
+
+    <!-- Photo Stitch -->
+    <string name="stitch_mode_vertical">عمودي</string>
+    <string name="stitch_mode_horizontal">أفقي</string>
+    <string name="stitch_mode_grid">شبكة 2x2</string>
+    <string name="stitch">دمج</string>
+    <string name="select_at_least_2">يرجى تحديد صورتين على الأقل</string>
+    <string name="grid_requires_4">وضع الشبكة يتطلب 4 صور بالضبط</string>
+
+    <!-- Menu -->
+    <string name="menu_night_mode">الوضع الليلي</string>
+    <string name="menu_theme">المظهر</string>
+    <string name="menu_language">اللغة</string>
+    <string name="menu_support">الدعم</string>
+    <string name="menu_privacy">سياسة الخصوصية</string>
+    <string name="menu_share">مشاركة التطبيق</string>
+    <string name="select_theme">اختيار المظهر</string>
+    <string name="select_language">اختيار اللغة</string>
+
+    <!-- Status Messages -->
+    <string name="processing_count">جارٍ معالجة %d صور…</string>
+    <string name="image_saved">تم حفظ الصورة في المعرض</string>
+    <string name="failed_save">فشل حفظ الصورة</string>
+    <string name="add_image_first">أضف الصورة أولاً إلى اللوحة</string>
+    <string name="no_image_to_save">لا توجد صورة للحفظ</string>
+    <string name="no_internet">قم بتشغيل الإنترنت</string>
+    <string name="cannot_open_image">لا يمكن فتح الصورة</string>
+    <string name="contact_support">اتصل: hitbhatech@gmail.com</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_thumbnail">صورة مصغرة</string>
+    <string name="cd_history">السجل</string>
+    <string name="history">السجل</string>
+    <string name="cd_undo">تراجع</string>
+    <string name="cd_redo">إعادة</string>
+    <string name="crop_desc">قص الصورة</string>
+    <string name="select_page_desc">اختيار حجم الصفحة</string>
+    <string name="save_desc">حفظ التخطيط</string>
+    <string name="share_desc">مشاركة التخطيط</string>
+
+    <!-- Share -->
+    <string name="share_app">مشاركة</string>
+    <string name="share_text">تحقق من التطبيق: https://play.google.com/store/apps/details?id=</string>
+
+    <!-- Cut Modes -->
+    <string-array name="cut_modes">
+        <item>قص أفقي</item>
+        <item>قص عمودي</item>
+    </string-array>
+    <!-- Tools / Eraser -->
+    <string name="eraser">ممحاة</string>
+    <string name="delete_image">حذف</string>
+    <string name="delete_image_confirm">حذف الصورة الحالية من المحرر؟</string>
+    <string name="color_erase">ممحاة الألوان</string>
+    <string name="brush_size">الحجم</string>
+    <string name="remove_bg">إزالة الخلفية</string>
+    <string name="remove_bg_confirm">الكشف التلقائي عن الخلفية وإزالتها؟ سيتم جعل وحدات البكسل المطابقة للون خلفية الحافة شفافة.</string>
+    <string name="bg_tools_remove_bg">إزالة الخلفية</string>
+    <string name="bg_tools_brush_eraser">ممحاة الفرشاة</string>
+    <string name="bg_tools_color_eraser">ممحاة الألوان</string>
+
+    <string name="bg_tools_magic_remove">إزالة سحرية</string>
+
+    <string name="magic_pick_color_hint">انقر على الصورة لاختيار اللون المراد إزالته</string>
+
+    <string name="magic_color_picked_hint">تم اختيار اللون - ارسم فوق الصورة لمسحه</string>
+    <string name="final_touches">اللمسات النهائية</string>
+    <string name="final_touches_desc">تطبيق تأثيرات نهائية على صورتك</string>
+    <string name="feather_edges">تنعيم الحواف</string>
+    <string name="feather_edges_desc">تنعيم الحدود بين الموضوع والخلفية</string>
+    <string name="fill_background">ملء الخلفية</string>
+    <string name="fill_background_desc">استبدال المناطق الشفافة بلون ثابت</string>
+    <string name="outline_remove">إزالة المخطط</string>
+    <string name="outline_remove_desc">إزالة مخطط الخلفية المتبقي من الحواف (يوصى بـ 3-5 بكسل)</string>
+    <string name="bg_removed">تمت إزالة الخلفية</string>
+    <string name="use_editor_for_eraser">استخدم محرر الصور لأدوات الممحاة</string>
+    <string name="done">تم</string>
+    <!-- Page Size Dialog -->
+    <string name="rows">الصفوف</string>
+    <!-- Adjust Controls -->
+    <string name="saturation">التشبع</string>
+    <string name="highlights">الإضاءات</string>
+    <string name="shadows">الظلال</string>
+    <string name="exposure">التعريض</string>
+    <string name="sharpen">الوضوح</string>
+    <string name="vignette">الزوايا الداكنة</string>
+    <!-- Content Descriptions -->
+    <string name="cd_prev_page">الصفحة السابقة</string>
+    <string name="cd_next_page">الصفحة التالية</string>
+    <!-- Save/Share -->
+    <string name="file_name">اسم الملف</string>
+</resources>

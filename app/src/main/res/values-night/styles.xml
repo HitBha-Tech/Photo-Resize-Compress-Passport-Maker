@@ -1,0 +1,279 @@
+<resources>
+    <!-- Base theme Dark (Light Green / Default) - Material3 OLED -->
+    <style name="Theme.PhotoResize" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/light_green_500</item>
+        <item name="colorPrimaryDark">@color/light_green_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimaryContainer">#FF1A3D00</item>
+        <item name="colorOnPrimaryContainer">#FFDCEDC8</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/m3_surface_dark</item>
+        <item name="colorOnSurface">@color/m3_on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/m3_surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/m3_on_surface_variant_dark</item>
+        <item name="android:windowBackground">@color/m3_background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- White Dark (Black accents) -->
+    <style name="Theme.PhotoResize.White" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimaryContainer">#FF2D2D2D</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/m3_surface_dark</item>
+        <item name="colorOnSurface">@color/m3_on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/m3_surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/m3_on_surface_variant_dark</item>
+        <item name="android:windowBackground">@color/m3_background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Purple Dark -->
+    <style name="Theme.PhotoResize.Purple" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">#FF4F378B</item>
+        <item name="colorOnPrimaryContainer">#FFEADDFF</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/m3_surface_dark</item>
+        <item name="colorOnSurface">@color/m3_on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/m3_surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/m3_on_surface_variant_dark</item>
+        <item name="android:windowBackground">@color/m3_background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Red Dark -->
+    <style name="Theme.PhotoResize.Red" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryDark">@color/red_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">#FF93000A</item>
+        <item name="colorOnPrimaryContainer">#FFFFDAD6</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/m3_surface_dark</item>
+        <item name="colorOnSurface">@color/m3_on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/m3_surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/m3_on_surface_variant_dark</item>
+        <item name="android:windowBackground">@color/m3_background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Green Dark -->
+    <style name="Theme.PhotoResize.Green" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/green_500</item>
+        <item name="colorPrimaryDark">@color/green_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">#FF004D20</item>
+        <item name="colorOnPrimaryContainer">#FFBAE5BA</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/m3_surface_dark</item>
+        <item name="colorOnSurface">@color/m3_on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/m3_surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/m3_on_surface_variant_dark</item>
+        <item name="android:windowBackground">@color/m3_background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Light Blue Dark -->
+    <style name="Theme.PhotoResize.LightBlue" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/light_blue_500</item>
+        <item name="colorPrimaryDark">@color/light_blue_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimaryContainer">#FF004D63</item>
+        <item name="colorOnPrimaryContainer">#FFCDF1FF</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/m3_surface_dark</item>
+        <item name="colorOnSurface">@color/m3_on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/m3_surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/m3_on_surface_variant_dark</item>
+        <item name="android:windowBackground">@color/m3_background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Yellow Dark -->
+    <style name="Theme.PhotoResize.Yellow" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/yellow_500</item>
+        <item name="colorPrimaryDark">@color/yellow_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimaryContainer">#FF5C3C00</item>
+        <item name="colorOnPrimaryContainer">#FFFFF9C4</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/m3_surface_dark</item>
+        <item name="colorOnSurface">@color/m3_on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/m3_surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/m3_on_surface_variant_dark</item>
+        <item name="android:windowBackground">@color/m3_background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Pink Dark -->
+    <style name="Theme.PhotoResize.Pink" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/pink_500</item>
+        <item name="colorPrimaryDark">@color/pink_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">#FF66002B</item>
+        <item name="colorOnPrimaryContainer">#FFFFD9E2</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/m3_surface_dark</item>
+        <item name="colorOnSurface">@color/m3_on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/m3_surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/m3_on_surface_variant_dark</item>
+        <item name="android:windowBackground">@color/m3_background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Brown Dark -->
+    <style name="Theme.PhotoResize.Brown" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/brown_500</item>
+        <item name="colorPrimaryDark">@color/brown_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">#FF6C402C</item>
+        <item name="colorOnPrimaryContainer">#FFF2DFD1</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/m3_surface_dark</item>
+        <item name="colorOnSurface">@color/m3_on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/m3_surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/m3_on_surface_variant_dark</item>
+        <item name="android:windowBackground">@color/m3_background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Orange Dark -->
+    <style name="Theme.PhotoResize.Orange" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/orange_500</item>
+        <item name="colorPrimaryDark">@color/orange_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimaryContainer">#FF722200</item>
+        <item name="colorOnPrimaryContainer">#FFFFDCC7</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/m3_surface_dark</item>
+        <item name="colorOnSurface">@color/m3_on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/m3_surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/m3_on_surface_variant_dark</item>
+        <item name="android:windowBackground">@color/m3_background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Light Green Dark -->
+    <style name="Theme.PhotoResize.LightGreen" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/light_green_500</item>
+        <item name="colorPrimaryDark">@color/light_green_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimaryContainer">#FF1A3D00</item>
+        <item name="colorOnPrimaryContainer">#FFDCEDC8</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/m3_surface_dark</item>
+        <item name="colorOnSurface">@color/m3_on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/m3_surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/m3_on_surface_variant_dark</item>
+        <item name="android:windowBackground">@color/m3_background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Dark Blue Dark -->
+    <style name="Theme.PhotoResize.DarkBlue" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/dark_blue_500</item>
+        <item name="colorPrimaryDark">@color/dark_blue_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">#FF002B7A</item>
+        <item name="colorOnPrimaryContainer">#FFDBE1FF</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/m3_surface_dark</item>
+        <item name="colorOnSurface">@color/m3_on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/m3_surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/m3_on_surface_variant_dark</item>
+        <item name="android:windowBackground">@color/m3_background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Colour Mode Dark variants (tinted surfaces/backgrounds to make UI more colorful) -->
+    <style name="Theme.PhotoResize.ColourMode" parent="Theme.PhotoResize">
+        <item name="colorSurface">#FF1A3D00</item>
+        <item name="android:windowBackground">#FF1A3D00</item>
+    </style>
+    <style name="Theme.PhotoResize.White.ColourMode" parent="Theme.PhotoResize.White">
+        <item name="colorSurface">#FF37474F</item>
+        <item name="android:windowBackground">#FF37474F</item>
+    </style>
+    <style name="Theme.PhotoResize.Purple.ColourMode" parent="Theme.PhotoResize.Purple">
+        <item name="colorSurface">#FF4F378B</item>
+        <item name="android:windowBackground">#FF4F378B</item>
+    </style>
+    <style name="Theme.PhotoResize.Red.ColourMode" parent="Theme.PhotoResize.Red">
+        <item name="colorSurface">#FF93000A</item>
+        <item name="android:windowBackground">#FF93000A</item>
+    </style>
+    <style name="Theme.PhotoResize.Green.ColourMode" parent="Theme.PhotoResize.Green">
+        <item name="colorSurface">#FF004D20</item>
+        <item name="android:windowBackground">#FF004D20</item>
+    </style>
+    <style name="Theme.PhotoResize.LightBlue.ColourMode" parent="Theme.PhotoResize.LightBlue">
+        <item name="colorSurface">#FF004D63</item>
+        <item name="android:windowBackground">#FF004D63</item>
+    </style>
+    <style name="Theme.PhotoResize.Yellow.ColourMode" parent="Theme.PhotoResize.Yellow">
+        <item name="colorSurface">#FF5C3C00</item>
+        <item name="android:windowBackground">#FF5C3C00</item>
+    </style>
+    <style name="Theme.PhotoResize.Pink.ColourMode" parent="Theme.PhotoResize.Pink">
+        <item name="colorSurface">#FF66002B</item>
+        <item name="android:windowBackground">#FF66002B</item>
+    </style>
+    <style name="Theme.PhotoResize.Brown.ColourMode" parent="Theme.PhotoResize.Brown">
+        <item name="colorSurface">#FF6C402C</item>
+        <item name="android:windowBackground">#FF6C402C</item>
+    </style>
+    <style name="Theme.PhotoResize.Orange.ColourMode" parent="Theme.PhotoResize.Orange">
+        <item name="colorSurface">#FF722200</item>
+        <item name="android:windowBackground">#FF722200</item>
+    </style>
+    <style name="Theme.PhotoResize.LightGreen.ColourMode" parent="Theme.PhotoResize.LightGreen">
+        <item name="colorSurface">#FF1A3D00</item>
+        <item name="android:windowBackground">#FF1A3D00</item>
+    </style>
+    <style name="Theme.PhotoResize.DarkBlue.ColourMode" parent="Theme.PhotoResize.DarkBlue">
+        <item name="colorSurface">#FF002B7A</item>
+        <item name="android:windowBackground">#FF002B7A</item>
+    </style>
+</resources>

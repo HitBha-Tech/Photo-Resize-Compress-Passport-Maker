@@ -1,0 +1,17 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea/caches/
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+.DS_Store
+**/build/
+/app/release/
+/captures
+.externalNativeBuild
+*.jks
+*.keystore
+/admob.properties
+/keystore.properties

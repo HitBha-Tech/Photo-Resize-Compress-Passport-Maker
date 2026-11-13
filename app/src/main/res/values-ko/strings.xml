@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Photo: Resize, Compress &amp; Passport Maker</string>
+
+    <!-- Feature Names & Descriptions -->
+    <string name="single_image_edit">단일 이미지 편집</string>
+    <string name="single_image_edit_desc">크기 조정, 자르기, 조정, 압축</string>
+    <string name="batch_processing">일괄 처리</string>
+    <string name="batch_processing_desc">여러 이미지 크기 조정/압축</string>
+    <string name="image_stitch">이미지 합치기</string>
+    <string name="image_stitch_desc">여러 이미지 결합</string>
+    <string name="cut_inside_image">내부 자르기</string>
+    <string name="cut_inside_image_desc">이미지에서 정사각형 영역 자르기</string>
+    <string name="passport_size_photo">여권 사진</string>
+    <string name="passport_size_photo_desc">여권 사진 시트 만들기</string>
+    <string name="image_editor">이미지 편집기</string>
+    <string name="saved_images">저장된 이미지</string>
+    <string name="no_saved_images">저장된 이미지가 아직 없습니다</string>
+
+    <!-- Common Actions -->
+    <string name="resize">크기 조정</string>
+    <string name="crop">자르기</string>
+    <string name="adjust">조정</string>
+    <string name="compress">압축</string>
+    <string name="rotate">회전</string>
+    <string name="cut">자르기</string>
+    <string name="save">저장</string>
+    <string name="cancel">취소</string>
+    <string name="apply">적용</string>
+    <string name="done">완료</string>
+    <string name="reset">초기화</string>
+    <string name="share">공유</string>
+    <string name="select">선택</string>
+    <string name="remove">X</string>
+
+    <!-- Editor Dialogs -->
+    <string name="resize_image">이미지 크기 조정</string>
+    <string name="keep_aspect_ratio">가로세로 비율 유지</string>
+    <string name="width_hint">너비 (px)</string>
+    <string name="height_hint">높이 (px)</string>
+    <string name="result_preview">결과: -</string>
+    <string name="adjust_image">이미지 조정</string>
+    <string name="compress_image">이미지 압축</string>
+    <string name="quality">품질</string>
+    <string name="quality_value">품질: %d%%</string>
+    <string name="quality_default">품질: 80%</string>
+    <string name="original_size">원본: -</string>
+    <string name="compressed_size">압축 후: -</string>
+    <string name="compressed_size_per_image">압축 후: - 이미지당</string>
+    <string name="estimated_savings">예상 절감: -</string>
+    <string name="rotate_or_mirror">회전 또는 대칭</string>
+    <string name="rotate_90">90°</string>
+    <string name="rotate_180">180°</string>
+    <string name="rotate_minus_90">-90°</string>
+    <string name="mirror_h">좌우 대칭</string>
+
+    <!-- Image Adjust Controls -->
+    <string name="brightness">밝기</string>
+    <string name="contrast">대비</string>
+    <string name="temperature">색온도</string>
+    <string name="blur">흐림</string>
+
+    <!-- Passport Size Photo -->
+    <string name="select_page_size">용지 크기 선택</string>
+    <string name="page_4x6">4×6 (8장)</string>
+    <string name="page_a4">A4 4열 원본 (32장)</string>
+    <string name="page_b4">A4 5열 원본 (40장)</string>
+    <string name="photos_label">사진: </string>
+    <string name="page_full_page_print">전체 페이지 인쇄</string>
+    <string name="fullpage_4x6">4×6</string>
+    <string name="fullpage_a4">A4</string>
+    <string name="generate_layout">레이아웃 생성</string>
+    <string name="page">페이지</string>
+    <string name="crop_applied">자르기 적용됨</string>
+    <string name="layout_generated">레이아웃 생성됨: %1$d×%2$d = %3$d장</string>
+    <string name="no_layout">생성된 레이아웃이 없습니다. 먼저 레이아웃을 생성하세요.</string>
+    <string name="failed_share_jpeg">JPEG 공유 실패</string>
+    <string name="failed_share_png">PNG 공유 실패</string>
+    <string name="failed_share_pdf">PDF 공유 실패</string>
+    <string name="pdf_saved">PDF가 성공적으로 저장되었습니다</string>
+    <string name="failed_pdf">PDF 저장 실패</string>
+    <string name="jpg_saved">JPG가 갤러리에 저장되었습니다</string>
+    <string name="failed_jpg">JPG 저장 실패</string>
+    <string name="fullpage_three_finger_hint">세 손가락으로 페이지에서 이미지 이동</string>
+    <string name="fullpage_feature_info">전체 페이지 인쇄: 페이지 전체에 사진을 배치합니다. 한 손가락으로 가장자리 늘리기, 두 손가락으로 확대/축소, 세 손가락으로 이미지 이동.</string>
+    <string name="drag_to_reposition">드래그하여 사진 위치 변경</string>
+
+    <!-- Cut Inside Image -->
+    <string name="cut_mode">자르기 모드:</string>
+    <string name="selection_too_small">선택 영역이 너무 작습니다</string>
+
+    <!-- Batch Processing -->
+    <string name="batch_resize">픽셀 단위 일괄 크기 조정</string>
+    <string name="batch_compress">일괄 압축</string>
+    <string name="select_images_first">먼저 이미지를 선택하세요</string>
+    <string name="enter_valid_dimensions">유효한 크기를 입력하세요</string>
+    <string name="batch_resize_completed">일괄 크기 조정 완료</string>
+    <string name="batch_compress_completed">일괄 압축 완료</string>
+    <string name="file_name">파일 이름</string>
+    <string name="output_format">출력 형식</string>
+    <string name="format_jpeg">JPEG</string>
+    <string name="format_png">PNG</string>
+    <string name="format_pdf">PDF</string>
+    <string name="dimensions">크기</string>
+
+    <!-- Photo Stitch -->
+    <string name="stitch_mode_vertical">세로</string>
+    <string name="stitch_mode_horizontal">가로</string>
+    <string name="stitch_mode_grid">그리드 2×2</string>
+    <string name="stitch">합치기</string>
+    <string name="select_at_least_2">최소 2장의 사진을 선택하세요</string>
+    <string name="grid_requires_4">그리드 모드는 정확히 4장의 사진이 필요합니다</string>
+
+    <!-- Menu -->
+    <string name="menu_night_mode">야간 모드</string>
+    <string name="menu_theme">테마</string>
+    <string name="menu_language">언어</string>
+    <string name="menu_support">지원</string>
+    <string name="menu_privacy">개인정보 처리방침</string>
+    <string name="menu_share">앱 공유</string>
+    <string name="select_theme">테마 선택</string>
+    <string name="select_language">언어 선택</string>
+
+    <!-- Status Messages -->
+    <string name="processing_count">%d개 이미지 처리 중…</string>
+    <string name="image_saved">이미지가 갤러리에 저장되었습니다</string>
+    <string name="failed_save">이미지 저장 실패</string>
+    <string name="add_image_first">캔버스에 먼저 이미지를 추가하세요</string>
+    <string name="no_image_to_save">저장할 이미지가 없습니다</string>
+    <string name="no_internet">인터넷을 켜세요</string>
+    <string name="cannot_open_image">이미지를 열 수 없습니다</string>
+    <string name="contact_support">연락처: hitbhatech@gmail.com</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_thumbnail">썸네일</string>
+    <string name="cd_history">기록</string>
+    <string name="history">기록</string>
+    <string name="cd_undo">실행 취소</string>
+    <string name="cd_redo">다시 실행</string>
+    <string name="cd_prev_page">이전 페이지</string>
+    <string name="cd_next_page">다음 페이지</string>
+    <string name="crop_desc">이미지 자르기</string>
+    <string name="select_page_desc">용지 크기 선택</string>
+    <string name="save_desc">레이아웃 저장</string>
+    <string name="share_desc">레이아웃 공유</string>
+
+    <!-- Share -->
+    <string name="share_app">공유</string>
+    <string name="share_text">앱 확인하기: https://play.google.com/store/apps/details?id=</string>
+
+    <!-- Tools / Eraser -->
+    <string name="eraser">지우개</string>
+    <string name="delete_image">삭제</string>
+    <string name="delete_image_confirm">편집기에서 현재 이미지를 삭제하시겠습니까?</string>
+    <string name="color_erase">색상 지우기</string>
+    <string name="brush_size">크기</string>
+    <string name="remove_bg">배경 제거</string>
+    <string name="remove_bg_confirm">배경을 자동 감지하여 제거하시겠습니까? 가장자리 배경색과 일치하는 픽셀이 투명해집니다.</string>
+    <string name="bg_tools_remove_bg">배경 제거</string>
+    <string name="bg_tools_brush_eraser">브러시 지우개</string>
+    <string name="bg_tools_color_eraser">색상 지우개</string>
+
+    <string name="bg_tools_magic_remove">매직 지우기</string>
+
+    <string name="magic_pick_color_hint">제거할 색상을 선택하려면 사진을 탭하세요</string>
+
+    <string name="magic_color_picked_hint">색상이 선택되었습니다 - 지우려는 부분을 칠하세요</string>
+    <string name="final_touches">최종 터치</string>
+    <string name="final_touches_desc">이미지에 마무리 효과 적용</string>
+    <string name="feather_edges">가장자리 부드럽게</string>
+    <string name="feather_edges_desc">피사체와 배경 사이의 경계를 부드럽게</string>
+    <string name="fill_background">배경 채우기</string>
+    <string name="fill_background_desc">투명 영역을 단색으로 대체</string>
+    <string name="outline_remove">윤곽선 제거</string>
+    <string name="outline_remove_desc">가장자리의 잔여 배경 윤곽선 제거 (3-5px 권장)</string>
+
+    <!-- Adjust Controls -->
+    <string name="saturation">채도</string>
+    <string name="highlights">하이라이트</string>
+    <string name="shadows">그림자</string>
+    <string name="exposure">노출</string>
+    <string name="sharpen">선명하게</string>
+    <string name="vignette">비네트</string>
+
+    <!-- Background Removal -->
+    <string name="bg_removed">배경이 제거되었습니다</string>
+    <string name="use_editor_for_eraser">지우개 도구는 이미지 편집기를 사용하세요</string>
+
+    <!-- Page Size Dialog -->
+    <string name="rows">행</string>
+
+    <!-- Cut Modes -->
+    <string-array name="cut_modes">
+        <item>가로 자르기</item>
+        <item>세로 자르기</item>
+    </string-array>
+</resources>

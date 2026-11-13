@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Photo: Resize, Compress &amp; Passport Maker</string>
+
+    <!-- Feature Names & Descriptions -->
+    <string name="single_image_edit">సింగిల్ ఇమేజ్ ఎడిట్</string>
+    <string name="single_image_edit_desc">పరిమాణం మార్చు, క్రాప్, సర్దుబాటు, కంప్రెస్</string>
+    <string name="batch_processing">బ్యాచ్ ప్రాసెసింగ్</string>
+    <string name="batch_processing_desc">బహుళ చిత్రాలను పరిమాణం మార్చు/కంప్రెస్ చేయి</string>
+    <string name="image_stitch">చిత్ర కూర్పు</string>
+    <string name="image_stitch_desc">బహుళ చిత్రాలను కలపండి</string>
+    <string name="cut_inside_image">లోపల కత్తిరించు</string>
+    <string name="cut_inside_image_desc">చిత్రం నుండి చదరపు ప్రాంతాన్ని కత్తిరించండి</string>
+    <string name="passport_size_photo">పాస్పోర్ట్ సైజ్ ఫోటో</string>
+    <string name="passport_size_photo_desc">పాస్పోర్ట్ ఫోటో షీట్లను సృష్టించండి</string>
+    <string name="image_editor">చిత్ర ఎడిటర్</string>
+    <string name="saved_images">సేవ్ చేసిన చిత్రాలు</string>
+    <string name="no_saved_images">ఇంకా చిత్రాలు ఏవీ సేవ్ చేయబడలేదు</string>
+
+    <!-- Common Actions -->
+    <string name="resize">పరిమాణం మార్చు</string>
+    <string name="crop">క్రాప్</string>
+    <string name="adjust">సర్దుబాటు</string>
+    <string name="compress">కంప్రెస్</string>
+    <string name="rotate">తిప్పు</string>
+    <string name="cut">కత్తిరించు</string>
+    <string name="save">సేవ్</string>
+    <string name="cancel">రద్దు</string>
+    <string name="apply">వర్తింపజేయి</string>
+    <string name="done">పూర్తయింది</string>
+    <string name="reset">రీసెట్</string>
+    <string name="share">షేర్</string>
+    <string name="select">ఎంచుకోండి</string>
+    <string name="remove">X</string>
+
+    <!-- Editor Dialogs -->
+    <string name="resize_image">చిత్ర పరిమాణం మార్చు</string>
+    <string name="keep_aspect_ratio">కారక నిష్పత్తిని ఉంచండి</string>
+    <string name="width_hint">వెడల్పు (px)</string>
+    <string name="height_hint">ఎత్తు (px)</string>
+    <string name="result_preview">ఫలితం: -</string>
+    <string name="adjust_image">చిత్రాన్ని సర్దుబాటు చేయి</string>
+    <string name="compress_image">చిత్రాన్ని కంప్రెస్ చేయి</string>
+    <string name="quality">నాణ్యత</string>
+    <string name="quality_value">నాణ్యత: %d%%</string>
+    <string name="quality_default">నాణ్యత: 80%</string>
+    <string name="original_size">అసలు: -</string>
+    <string name="compressed_size">కంప్రెస్ చేయబడింది: -</string>
+    <string name="compressed_size_per_image">కంప్రెస్ చేయబడింది: - ఒక చిత్రానికి</string>
+    <string name="estimated_savings">అంచనా పొదుపు: -</string>
+    <string name="rotate_or_mirror">తిప్పు లేదా ప్రతిబింబించు</string>
+    <string name="rotate_90">90°</string>
+    <string name="rotate_180">180°</string>
+    <string name="rotate_minus_90">-90°</string>
+    <string name="mirror_h">అడ్డంగా ప్రతిబింబించు</string>
+
+    <!-- Image Adjust Controls -->
+    <string name="brightness">ప్రకాశం</string>
+    <string name="contrast">కాంట్రాస్ట్</string>
+    <string name="temperature">ఉష్ణోగ్రత</string>
+    <string name="blur">మసక</string>
+
+    <!-- Passport Size Photo -->
+    <string name="select_page_size">పేజీ పరిమాణాన్ని ఎంచుకోండి</string>
+    <string name="page_4x6">4×6 (8 ఫోటోలు)</string>
+    <string name="page_a4">A4 4 ఫోటో వరుస (32)</string>
+    <string name="page_b4">A4 5 ఫోటో వరుస (40)</string>
+    <string name="photos_label">ఫోటోలు: </string>
+    <string name="page_full_page_print">పూర్తి పేజీ ప్రింట్</string>
+    <string name="fullpage_4x6">4×6</string>
+    <string name="fullpage_a4">A4</string>
+    <string name="generate_layout">లేఅవుట్ రూపొందించు</string>
+    <string name="page">పేజీ</string>
+    <string name="crop_applied">క్రాప్ వర్తింపజేయబడింది</string>
+    <string name="layout_generated">లేఅవుట్ రూపొందించబడింది: %1$d×%2$d = %3$d ఫోటోలు</string>
+    <string name="no_layout">లేఅవుట్ ఏదీ రూపొందించబడలేదు. దయచేసి ముందుగా లేఅవుట్ రూపొందించండి.</string>
+    <string name="failed_share_jpeg">JPEG షేర్ చేయడంలో విఫలమైంది</string>
+    <string name="failed_share_png">PNG షేర్ చేయడంలో విఫలమైంది</string>
+    <string name="failed_share_pdf">PDF షేర్ చేయడంలో విఫలమైంది</string>
+    <string name="pdf_saved">PDF విజయవంతంగా సేవ్ చేయబడింది</string>
+    <string name="failed_pdf">PDF సేవ్ చేయడంలో విఫలమైంది</string>
+    <string name="jpg_saved">JPG గ్యాలరీలో సేవ్ చేయబడింది</string>
+    <string name="failed_jpg">JPG సేవ్ చేయడంలో విఫలమైంది</string>
+    <string name="fullpage_three_finger_hint">చిత్రాన్ని పేజీ చుట్టూ తరలించడానికి మూడు వేళ్లను ఉపయోగించండి</string>
+    <string name="fullpage_feature_info">పూర్తి పేజీ ప్రింట్: మీ ఫోటోను పూర్తి పేజీలో ఉంచండి. అంచులను సాగదీయడానికి 1 వేలు, జూమ్ చేయడానికి 2 వేళ్లు, చిత్రాన్ని తరలించడానికి 3 వేళ్లు ఉపయోగించండి.</string>
+    <string name="drag_to_reposition">ఫోటోను మళ్లీ స్థానంలో ఉంచడానికి లాగండి</string>
+
+    <!-- Cut Inside Image -->
+    <string name="cut_mode">కత్తిరింపు మోడ్:</string>
+    <string name="selection_too_small">ఎంపిక ప్రాంతం చాలా చిన్నది</string>
+
+    <!-- Batch Processing -->
+    <string name="batch_resize">పిక్సెల్లో బ్యాచ్ పరిమాణం మార్పు</string>
+    <string name="batch_compress">బ్యాచ్ కంప్రెస్</string>
+    <string name="select_images_first">దయచేసి ముందుగా చిత్రాలను ఎంచుకోండి</string>
+    <string name="enter_valid_dimensions">దయచేసి చెల్లుబాటు అయ్యే కొలతలను నమోదు చేయండి</string>
+    <string name="batch_resize_completed">బ్యాచ్ పరిమాణం మార్పు పూర్తయింది</string>
+    <string name="batch_compress_completed">బ్యాచ్ కంప్రెస్ పూర్తయింది</string>
+    <string name="file_name">ఫైల్ పేరు</string>
+    <string name="output_format">అవుట్పుట్ ఫార్మాట్</string>
+    <string name="format_jpeg">JPEG</string>
+    <string name="format_png">PNG</string>
+    <string name="format_pdf">PDF</string>
+    <string name="dimensions">కొలతలు</string>
+
+    <!-- Photo Stitch -->
+    <string name="stitch_mode_vertical">నిలువు</string>
+    <string name="stitch_mode_horizontal">అడ్డం</string>
+    <string name="stitch_mode_grid">గ్రిడ్ 2x2</string>
+    <string name="stitch">కలుపు</string>
+    <string name="select_at_least_2">దయచేసి కనీసం 2 ఫోటోలను ఎంచుకోండి</string>
+    <string name="grid_requires_4">గ్రిడ్ మోడ్కు సరిగ్గా 4 ఫోటోలు అవసరం</string>
+
+    <!-- Menu -->
+    <string name="menu_night_mode">రాత్రి మోడ్</string>
+    <string name="menu_theme">థీమ్</string>
+    <string name="menu_language">భాష</string>
+    <string name="menu_support">సహాయం</string>
+    <string name="menu_privacy">గోప్యతా విధానం</string>
+    <string name="menu_share">యాప్‌ను షేర్ చేయి</string>
+    <string name="select_theme">థీమ్‌ను ఎంచుకోండి</string>
+    <string name="select_language">భాషను ఎంచుకోండి</string>
+
+    <!-- Status Messages -->
+    <string name="processing_count">%d చిత్రాలు ప్రాసెస్ చేయబడుతున్నాయి…</string>
+    <string name="image_saved">చిత్రం గ్యాలరీలో సేవ్ చేయబడింది</string>
+    <string name="failed_save">చిత్రాన్ని సేవ్ చేయడంలో విఫలమైంది</string>
+    <string name="add_image_first">ముందుగా కాన్వాస్‌లో చిత్రాన్ని జోడించండి</string>
+    <string name="no_image_to_save">సేవ్ చేయడానికి చిత్రం లేదు</string>
+    <string name="no_internet">ఇంటర్నెట్ ఆన్ చేయండి</string>
+    <string name="cannot_open_image">చిత్రాన్ని తెరవడం సాధ్యం కాలేదు</string>
+    <string name="contact_support">సంప్రదింపు: hitbhatech@gmail.com</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_thumbnail">సూక్ష్మచిత్రం</string>
+    <string name="cd_history">చరిత్ర</string>
+    <string name="history">చరిత్ర</string>
+    <string name="cd_undo">రద్దు</string>
+    <string name="cd_redo">పునరావృతం</string>
+    <string name="cd_prev_page">మునుపటి పేజీ</string>
+    <string name="cd_next_page">తదుపరి పేజీ</string>
+    <string name="crop_desc">చిత్రాన్ని క్రాప్ చేయి</string>
+    <string name="select_page_desc">పేజీ పరిమాణాన్ని ఎంచుకోండి</string>
+    <string name="save_desc">లేఅవుట్ సేవ్ చేయి</string>
+    <string name="share_desc">లేఅవుట్ షేర్ చేయి</string>
+
+    <!-- Share -->
+    <string name="share_app">షేర్</string>
+    <string name="share_text">యాప్‌ను చూడండి: https://play.google.com/store/apps/details?id=</string>
+
+    <!-- Tools / Eraser -->
+    <string name="eraser">ఎరేజర్</string>
+    <string name="delete_image">తొలగించు</string>
+    <string name="delete_image_confirm">ప్రస్తుత చిత్రాన్ని ఎడిటర్ నుండి తొలగించాలా?</string>
+    <string name="color_erase">కలర్ ఎరేజర్</string>
+    <string name="brush_size">పరిమాణం</string>
+    <string name="remove_bg">నేపథ్యం తొలగించు</string>
+    <string name="remove_bg_confirm">నేపథ్యాన్ని స్వయంచాలకంగా గుర్తించి తొలగించాలా? అంచు నేపథ్య రంగుతో సరిపోలే పిక్సెల్స్ పారదర్శకంగా మార్చబడతాయి.</string>
+    <string name="bg_tools_remove_bg">నేపథ్యం తొలగించు</string>
+    <string name="bg_tools_brush_eraser">బ్రష్ ఎరేజర్</string>
+    <string name="bg_tools_color_eraser">కలర్ ఎరేజర్</string>
+
+    <string name="bg_tools_magic_remove">మ్యాజిక్ తొలగించు</string>
+
+    <string name="magic_pick_color_hint">తొలగించడానికి రంగు ఎంచుకోవడానికి ఫోటోపై ట్యాప్ చేయండి</string>
+
+    <string name="magic_color_picked_hint">రంగు ఎంచుకోబడింది - దాన్ని తొలగించడానికి ఫోటోపై పెయింట్ చేయండి</string>
+    <string name="final_touches">చివరి మెరుగులు</string>
+    <string name="final_touches_desc">మీ చిత్రానికి చివరి ప్రభావాలను వర్తింపజేయండి</string>
+    <string name="feather_edges">అంచులను మెత్తగా చేయి</string>
+    <string name="feather_edges_desc">వస్తువు మరియు నేపథ్యం మధ్య సరిహద్దును మృదువుగా చేయండి</string>
+    <string name="fill_background">నేపథ్యం నింపు</string>
+    <string name="fill_background_desc">పారదర్శక ప్రాంతాలను ఘన రంగుతో భర్తీ చేయండి</string>
+    <string name="outline_remove">అవుట్‌లైన్ తొలగించు</string>
+    <string name="outline_remove_desc">అంచుల నుండి మిగిలిన నేపథ్య అవుట్‌లైన్‌ను తొలగించండి (3-5px సిఫార్సు చేయబడింది)</string>
+
+    <!-- Adjust Controls -->
+    <string name="saturation">సంతృప్తత</string>
+    <string name="highlights">హైలైట్స్</string>
+    <string name="shadows">నీడలు</string>
+    <string name="exposure">ఎక్స్పోజర్</string>
+    <string name="sharpen">షార్పెన్</string>
+    <string name="vignette">విగ్నెట్</string>
+
+    <!-- Background Removal -->
+    <string name="bg_removed">నేపథ్యం తొలగించబడింది</string>
+    <string name="use_editor_for_eraser">ఎరేజర్ టూల్స్ కోసం చిత్ర ఎడిటర్ ఉపయోగించండి</string>
+
+    <!-- Page Size Dialog -->
+    <string name="rows">వరుసలు</string>
+
+    <!-- Cut Modes -->
+    <string-array name="cut_modes">
+        <item>అడ్డంగా కత్తిరించు</item>
+        <item>నిలువుగా కత్తిరించు</item>
+    </string-array>
+</resources>

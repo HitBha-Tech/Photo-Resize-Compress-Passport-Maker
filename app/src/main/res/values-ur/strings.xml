@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo: Resize, Compress &amp; Passport Maker</string>
+    <string name="single_image_edit">واحد تصویر میں ترمیم</string>
+    <string name="single_image_edit_desc">سائز تبدیل کریں، کاٹیں، ایڈجسٹ کریں، کمپریس کریں</string>
+    <string name="batch_processing">بیچ پروسیسنگ</string>
+    <string name="batch_processing_desc">متعدد تصاویر کا سائز تبدیل/کمپریس کریں</string>
+    <string name="image_stitch">تصویر سلائی</string>
+    <string name="image_stitch_desc">متعدد تصاویر کو یکجا کریں</string>
+    <string name="cut_inside_image">اندر سے کاٹیں</string>
+    <string name="cut_inside_image_desc">تصویر سے مربع علاقہ کاٹیں</string>
+    <string name="passport_size_photo">پاسپورٹ سائز فوٹو</string>
+    <string name="passport_size_photo_desc">پاسپورٹ فوٹو شیٹس بنائیں</string>
+    <string name="image_editor">امیج ایڈیٹر</string>
+    <string name="saved_images">محفوظ کردہ تصاویر</string>
+    <string name="no_saved_images">ابھی تک کوئی تصویر محفوظ نہیں ہوئی</string>
+    <string name="resize">سائز تبدیل کریں</string>
+    <string name="crop">کاٹیں</string>
+    <string name="adjust">ایڈجسٹ کریں</string>
+    <string name="compress">کمپریس کریں</string>
+    <string name="rotate">گھمائیں</string>
+    <string name="cut">کاٹیں</string>
+    <string name="save">محفوظ کریں</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="apply">لاگو کریں</string>
+    <string name="reset">ری سیٹ کریں</string>
+    <string name="share">شیئر کریں</string>
+    <string name="select">منتخب کریں</string>
+    <string name="remove">X</string>
+    <string name="resize_image">تصویر کا سائز تبدیل کریں</string>
+    <string name="keep_aspect_ratio">پہلو تناسب برقرار رکھیں</string>
+    <string name="width_hint">چوڑائی (px)</string>
+    <string name="height_hint">اونچائی (px)</string>
+    <string name="result_preview">نتیجہ: -</string>
+
+    <string name="adjust_image">تصویر ایڈجسٹ کریں</string>
+    <string name="compress_image">تصویر کمپریس کریں</string>
+    <string name="quality">معیار</string>
+    <string name="quality_value">معیار: %d%%</string>
+    <string name="quality_default">معیار: 80%</string>
+    <string name="original_size">اصلی: -</string>
+    <string name="compressed_size">کمپریسڈ: -</string>
+    <string name="compressed_size_per_image">کمپریسڈ: - فی تصویر</string>
+    <string name="estimated_savings">متوقع بچت: -</string>
+    <string name="rotate_or_mirror">گھمائیں یا آئینہ</string>
+    <string name="rotate_90">90°</string>
+    <string name="rotate_180">180°</string>
+    <string name="rotate_minus_90">-90°</string>
+    <string name="mirror_h">آئینہ افقی</string>
+    <string name="brightness">چمک</string>
+    <string name="contrast">کنٹراسٹ</string>
+    <string name="temperature">درجہ حرارت</string>
+    <string name="blur">دھندلاپن</string>
+    <string name="select_page_size">صفحے کا سائز منتخب کریں</string>
+    <string name="page_4x6">4×6 (8 تصاویر)</string>
+    <string name="page_a4">A4 4 تصویر فی قطار (32)</string>
+    <string name="page_b4">A4 5 تصویر فی قطار (40)</string>
+    <string name="photos_label">تصاویر: </string>
+    <string name="page_full_page_print">مکمل صفحہ پرنٹ</string>
+    <string name="fullpage_4x6">4×6</string>
+    <string name="fullpage_a4">A4</string>
+    <string name="generate_layout">لے آؤٹ بنائیں</string>
+    <string name="page">صفحہ</string>
+    <string name="crop_applied">کٹائی لاگو ہوگئی</string>
+    <string name="layout_generated">لے آؤٹ تیار ہوگیا: %1$d×%2$d = %3$d تصاویر</string>
+    <string name="no_layout">کوئی لے آؤٹ نہیں بنایا گیا۔ براہ کرم پہلے لے آؤٹ بنائیں۔</string>
+    <string name="failed_share_jpeg">JPEG شیئر کرنے میں ناکام</string>
+    <string name="failed_share_png">PNG شیئر کرنے میں ناکام</string>
+    <string name="failed_share_pdf">PDF شیئر کرنے میں ناکام</string>
+    <string name="pdf_saved">PDF کامیابی سے محفوظ ہوگیا</string>
+    <string name="failed_pdf">PDF محفوظ کرنے میں ناکام</string>
+    <string name="jpg_saved">JPG گیلری میں محفوظ ہوگیا</string>
+    <string name="failed_jpg">JPG محفوظ کرنے میں ناکام</string>
+    <string name="fullpage_three_finger_hint">تصویر کو صفحے پر گھمانے کے لیے تین انگلیاں استعمال کریں</string>
+    <string name="fullpage_feature_info">مکمل صفحہ پرنٹ: اپنی تصویر کو مکمل صفحہ پر رکھیں۔ کناروں کو کھینچنے کے لیے 1 انگلی، زوم کرنے کے لیے 2 انگلیاں، تصویر کو منتقل کرنے کے لیے 3 انگلیاں استعمال کریں۔</string>
+    <string name="drag_to_reposition">تصویر کو دوبارہ جگہ دینے کے لیے گھسیٹیں</string>
+    <string name="cut_mode">کاٹنے کا موڈ:</string>
+    <string name="selection_too_small">انتخاب کا علاقہ بہت چھوٹا ہے</string>
+    <string name="batch_resize">پکسل میں بیچ سائز تبدیل کریں</string>
+    <string name="batch_compress">بیچ کمپریس کریں</string>
+    <string name="select_images_first">براہ کرم پہلے تصاویر منتخب کریں</string>
+    <string name="enter_valid_dimensions">براہ کرم درست جہتیں درج کریں</string>
+    <string name="batch_resize_completed">بیچ سائز تبدیل مکمل ہوگیا</string>
+    <string name="batch_compress_completed">بیچ کمپریس مکمل ہوگیا</string>
+    <string name="output_format">آؤٹ پٹ فارمیٹ</string>
+    <string name="format_jpeg">JPEG</string>
+    <string name="format_png">PNG</string>
+    <string name="format_pdf">PDF</string>
+    <string name="dimensions">جہتیں</string>
+    <!-- Photo Stitch -->
+    <string name="stitch_mode_vertical">عمودی</string>
+    <string name="stitch_mode_horizontal">افقی</string>
+    <string name="stitch_mode_grid">گرڈ 2x2</string>
+    <string name="stitch">سلائی کریں</string>
+    <string name="select_at_least_2">براہ کرم کم از کم 2 تصاویر منتخب کریں</string>
+    <string name="grid_requires_4">گرڈ موڈ کے لیے بالکل 4 تصاویر درکار ہیں</string>
+    <string name="menu_night_mode">نائٹ موڈ</string>
+    <string name="menu_theme">تھیم</string>
+    <string name="menu_language">زبان</string>
+    <string name="menu_support">سپورٹ</string>
+    <string name="menu_privacy">رازداری کی پالیسی</string>
+    <string name="menu_share">ایپ شیئر کریں</string>
+    <string name="select_theme">تھیم منتخب کریں</string>
+    <string name="select_language">زبان منتخب کریں</string>
+    <string name="processing_count">%d تصاویر پر کارروائی ہو رہی ہے…</string>
+    <string name="image_saved">تصویر گیلری میں محفوظ ہوگئی</string>
+    <string name="failed_save">تصویر محفوظ کرنے میں ناکام</string>
+    <string name="add_image_first">پہلے کینوس میں تصویر شامل کریں</string>
+    <string name="no_image_to_save">محفوظ کرنے کے لیے کوئی تصویر نہیں</string>
+    <string name="no_internet">انٹرنیٹ آن کریں</string>
+    <string name="cannot_open_image">تصویر نہیں کھل سکتی</string>
+    <string name="contact_support">رابطہ کریں: hitbhatech@gmail.com</string>
+    <string name="cd_thumbnail">تھمب نیل</string>
+    <string name="cd_history">ہسٹری</string>
+    <string name="history">ہسٹری</string>
+    <string name="cd_undo">واپس کریں</string>
+    <string name="cd_redo">دوبارہ کریں</string>
+    <string name="crop_desc">تصویر کاٹیں</string>
+    <string name="select_page_desc">صفحے کا سائز منتخب کریں</string>
+    <string name="save_desc">لے آؤٹ محفوظ کریں</string>
+    <string name="share_desc">لے آؤٹ شیئر کریں</string>
+    <string name="share_app">شیئر کریں</string>
+    <string name="share_text">ایپ دیکھیں: https://play.google.com/store/apps/details?id=</string>
+    <string-array name="cut_modes">
+        <item>افقی کٹ</item>
+        <item>عمودی کٹ</item>
+    </string-array>
+    <!-- Tools / Eraser -->
+    <string name="eraser">صاف کرنے والا</string>
+    <string name="delete_image">حذف کریں</string>
+    <string name="delete_image_confirm">کیا ایڈیٹر سے موجودہ تصویر حذف کر دیں؟</string>
+    <string name="color_erase">رنگ صاف کرنے والا</string>
+    <string name="brush_size">سائز</string>
+    <string name="remove_bg">پس منظر ہٹائیں</string>
+    <string name="remove_bg_confirm">خودکار طور پر پس منظر کا پتہ لگا کر ہٹا دیں؟ کنارے کے پس منظر کے رنگ سے مماثل پکسلز شفاف کر دیے جائیں گے۔</string>
+    <string name="bg_tools_remove_bg">پس منظر ہٹائیں</string>
+    <string name="bg_tools_brush_eraser">برش صاف کرنے والا</string>
+    <string name="bg_tools_color_eraser">رنگ صاف کرنے والا</string>
+
+    <string name="bg_tools_magic_remove">جادو سے ہٹائیں</string>
+
+    <string name="magic_pick_color_hint">ہٹانے کے لیے رنگ منتخب کرنے کے لیے تصویر پر ٹیپ کریں</string>
+
+    <string name="magic_color_picked_hint">رنگ منتخب ہو گیا - اسے مٹانے کے لیے تصویر پر پینٹ کریں</string>
+    <string name="final_touches">حتمی touches</string>
+    <string name="final_touches_desc">اپنی تصویر پر حتمی اثرات لگائیں</string>
+    <string name="feather_edges">کناروں کو نرم کریں</string>
+    <string name="feather_edges_desc">موضوع اور پس منظر کے درمیان حد کو ہموار کریں</string>
+    <string name="fill_background">پس منظر بھریں</string>
+    <string name="fill_background_desc">شفاف علاقوں کو ایک ٹھوس رنگ سے تبدیل کریں</string>
+    <string name="outline_remove">آؤٹ لائن ہٹائیں</string>
+    <string name="outline_remove_desc">کناروں سے باقی ماندہ پس منظر کا خاکہ ہٹائیں (3-5px تجویز کردہ)</string>
+    <string name="bg_removed">پس منظر ہٹا دیا گیا</string>
+    <string name="use_editor_for_eraser">صاف کرنے والے ٹولز کے لیے امیج ایڈیٹر استعمال کریں</string>
+    <string name="done">ہوگیا</string>
+    <!-- Page Size Dialog -->
+    <string name="rows">قطاریں</string>
+    <!-- Adjust Controls -->
+    <string name="saturation">سنترپتی</string>
+    <string name="highlights">روشن حصے</string>
+    <string name="shadows">سائے</string>
+    <string name="exposure">ایکسپوژر</string>
+    <string name="sharpen">تیز کریں</string>
+    <string name="vignette">وگنیٹ</string>
+    <!-- Content Descriptions -->
+    <string name="cd_prev_page">پچھلا صفحہ</string>
+    <string name="cd_next_page">اگلا صفحہ</string>
+    <!-- Save/Share -->
+    <string name="file_name">فائل کا نام</string>
+</resources>
