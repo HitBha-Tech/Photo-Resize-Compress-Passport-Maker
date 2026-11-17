@@ -125,6 +125,9 @@ dependencies {
     // Unbundled variant: OCR engine ships with Google Play services, not in the APK.
     implementation("com.google.android.gms:play-services-mlkit-text-recognition:19.0.0")
 
+    // ML Kit's live document viewfinder, edge detection, and perspective correction.
+    implementation("com.google.android.gms:play-services-mlkit-document-scanner:16.0.0")
+
     // Testing
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.3.0")

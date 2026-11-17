@@ -1,6 +1,7 @@
 package com.hitbha.photo.ui.scan
 
 import android.Manifest
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -13,6 +14,7 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.activity.result.IntentSenderRequest
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
@@ -29,6 +31,9 @@ import com.hitbha.photo.utils.performHapticClick
 import com.hitbha.photo.utils.setupWindowInsets
 import com.hitbha.photo.utils.showLoading
 import com.hitbha.photo.utils.updateStatusBarStyle
+import com.google.mlkit.vision.documentscanner.GmsDocumentScannerOptions
+import com.google.mlkit.vision.documentscanner.GmsDocumentScanning
+import com.google.mlkit.vision.documentscanner.GmsDocumentScanningResult
 import java.io.File
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.Dispatchers
@@ -43,6 +48,51 @@ class DocumentScannerActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDocumentScannerBinding
     private lateinit var viewModel: ScanViewModel
+
+    private val documentScanner by lazy {
+        GmsDocumentScanning.getClient(
+            GmsDocumentScannerOptions.Builder()
+                .setGalleryImportAllowed(true)
+                .setPageLimit(20)
+                .setResultFormats(GmsDocumentScannerOptions.RESULT_FORMAT_JPEG)
+                .setScannerMode(GmsDocumentScannerOptions.SCANNER_MODE_FULL)
+                .build()
+        )
+    }
+
+    private val documentScannerLauncher = registerForActivityResult(
+        ActivityResultContracts.StartIntentSenderForResult()
+    ) { result ->
+        if (result.resultCode == Activity.RESULT_OK) {
+            val pages = GmsDocumentScanningResult
+                .fromActivityResultIntent(result.data)
+                ?.pages
+                .orEmpty()
+
+            if (pages.isNotEmpty()) {
+                binding.progressBar.showLoading(true)
+                lifecycleScope.launch {
+                    var importedPages = 0
+                    try {
+                        for (page in pages) {
+                            val bitmap = withContext(Dispatchers.IO) {
+                                viewModel.decodeBitmap(page.imageUri)
+                            }
+                            if (bitmap != null) {
+                                viewModel.addPage(bitmap)
+                                importedPages++
+                            }
+                        }
+                    } finally {
+                        binding.progressBar.showLoading(false)
+                    }
+                    if (importedPages == 0) {
+                        Toast.makeText(this@DocumentScannerActivity, R.string.no_photo_captured, Toast.LENGTH_SHORT).show()
+                    }
+                }
+            }
+        }
+    }
 
     private val takePictureLauncher = registerForActivityResult(ActivityResultContracts.TakePicture()) { success ->
         val uri = viewModel.pendingCameraUri
@@ -135,7 +185,20 @@ class DocumentScannerActivity : AppCompatActivity() {
     private fun hasMediaReadPermission(): Boolean = ContextCompat.checkSelfPermission(this, mediaReadPermission) == PackageManager.PERMISSION_GRANTED
 
     private fun captureFromCamera() {
-        if (hasCameraPermission()) launchCapture() else requestCameraPermissionLauncher.launch(Manifest.permission.CAMERA)
+        binding.progressBar.showLoading(true)
+        documentScanner.getStartScanIntent(this)
+            .addOnSuccessListener { intentSender ->
+                binding.progressBar.showLoading(false)
+                documentScannerLauncher.launch(IntentSenderRequest.Builder(intentSender).build())
+            }
+            .addOnFailureListener {
+                binding.progressBar.showLoading(false)
+                if (hasCameraPermission()) {
+                    launchCapture()
+                } else {
+                    requestCameraPermissionLauncher.launch(Manifest.permission.CAMERA)
+                }
+            }
     }
 
     private fun launchCapture() {
